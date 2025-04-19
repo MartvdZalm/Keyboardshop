@@ -1,0 +1,23 @@
+<article class="carousel" aria-label="Product carousel">
+  <button
+    (click)="prev()"
+    class="material-icons"
+    aria-label="Previous products"
+  >arrow_back</button>
+
+  <section class="carousel__wrapper">
+    <ul #carousel role="list">
+      @for (product of products(); track product.id) {
+        <li role="listitem">
+          <app-product-item [product]="product" />
+        </li>
+      }
+    </ul>
+  </section>
+
+  <button
+    (click)="next()"
+    class="material-icons"
+    aria-label="Next products"
+  >arrow_forward</button>
+</article>

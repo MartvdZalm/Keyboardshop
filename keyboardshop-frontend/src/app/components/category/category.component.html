@@ -1,0 +1,20 @@
+<app-toast />
+
+<app-bread-crumbs [breadcrumbs]="breadcrumbs()" />
+
+@if (category()) {
+  <section>
+      @for (product of products(); track product.id) {
+        <app-product-item [product]="product" (addProductToCart)="onAddProductToCart()" />
+      }
+  </section>
+}  
+
+@if (totalProducts() > pageSize) {
+  <app-pagination
+    [currentPage]="currentPage()"
+    [totalPages]="totalPages()"
+    [pageSize]="pageSize"
+    (pageChange)="onPageChange($event)"
+  />
+}

@@ -1,0 +1,109 @@
+<app-toast />
+<app-confirmation />
+
+<form class="form" (submit)="onSubmit()">
+  <h2>{{ productId() ? productName : 'Create Product' }}</h2>
+
+  <span class="form__buttons">
+    <button type="button"  class="form__buttons-save" (click)="setActiveLanguage('en')" [class.active]="currentLang() === 'en'">English</button>
+    <button type="button" class="form__buttons-save" (click)="setActiveLanguage('nl')" [class.active]="currentLang() === 'nl'">Nederlands</button>
+  </span>
+
+  @if (currentLang() === 'nl') {
+    <app-form-input
+      [form]="productForm"
+      controlName="nameNL"
+      [label]="'admin.product.nameNL' | translate"
+      [validationMessages]="{
+        required: 'validation.name.required' | translate
+      }"
+    />
+
+    <app-form-textarea
+      [form]="productForm"
+      controlName="descriptionNL"
+      [label]="'admin.product.descriptionNL' | translate"
+      [validationMessages]="{
+        required: 'validation.description.required' | translate
+      }"
+    />
+  } @else {
+    <app-form-input
+      [form]="productForm"
+      controlName="nameEN"
+      [label]="'admin.product.nameEN' | translate"
+      [validationMessages]="{
+        required: 'validation.name.required' | translate
+      }"
+    />
+
+    <app-form-textarea
+      [form]="productForm"
+      controlName="descriptionEN"
+      [label]="'admin.product.descriptionEN' | translate"
+      [validationMessages]="{
+        required: 'validation.description.required' | translate
+      }"
+    />
+  }
+
+  <app-form-input
+    [form]="productForm"
+    controlName="price"
+    [label]="'admin.product.price' | translate"
+    [validationMessages]="{
+      required: 'validation.price.required' | translate
+    }"
+  />
+
+  <app-form-input
+    [form]="productForm"
+    controlName="quantity"
+    type="number"
+    [label]="'admin.product.quantity' | translate"
+    [validationMessages]="{
+      required: 'validation.quantity.required' | translate
+    }"
+  />
+
+  <app-form-image
+    [form]="productForm"
+    controlName="images"
+    [label]="'admin.product.images' | translate"
+    [validationMessages]="{
+      required: 'validation.images.required' | translate
+    }"
+  />
+
+  <app-form-attributes
+    [form]="productForm"
+    controlName="attributes"
+    [label]="'admin.product.attributes' | translate"
+    [validationMessages]="{
+      required: 'validation.attributes.required' | translate
+    }"
+  />
+
+  <app-form-select
+    [form]="productForm"
+    controlName="category"
+    [options]="categories"
+    [label]="'admin.product.category' | translate"
+    [validationMessages]="{
+      required: 'validation.category.required' | translate
+    }"
+  />
+
+  <span class="form__buttons">
+    <button class="form__buttons-cancel" type="button" [routerLink]="['/admin/products']">{{ 'admin.product.cancel' | translate }}</button>
+    <button class="form__buttons-save" type="submit">{{ 'admin.product.save' | translate }}</button>
+    @if (productId()) {
+      @if (productActive) {
+        <button class="form__buttons-deactivate" type="button" (click)="onActive()">{{ 'admin.product.deactivate' | translate }}</button>
+      } @else {
+        <button class="form__buttons-activate" type="button" (click)="onActive()">{{ 'admin.product.activate' | translate }}</button>
+      }
+      <button class="form__buttons-delete" type="button" (click)="onDelete()">{{ 'admin.product.delete' | translate }}</button>
+    }
+  </span>
+</form>

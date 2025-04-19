@@ -1,0 +1,14 @@
+@use "../../../../../styles/mixins" as *;
+
+section {
+  display: flex;
+  flex-direction: column;
+  
+  select {
+    @include form-input-style;
+  }
+  
+  .error-message {
+    @include error-message-style;
+  }
+}

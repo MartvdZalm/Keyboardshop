@@ -1,0 +1,32 @@
+<article>
+  <span class="mini__cart-header">
+    <h3>{{ "product.yourCart" | translate }}</h3>
+    <button
+      class="close__cart material-icons"
+      (click)="onCloseCart()"
+      (keydown.enter)="onCloseCart()"
+      (keydown.space)="onCloseCart()"
+      tabindex="0"
+    >
+      close
+    </button>
+  </span>
+
+  <section class="mini__cart-products">
+    @for (product of products(); track product.id) {
+    <app-cart-item
+      [product]="product"
+      (delete)="onDelete(product.id)"
+      [attr.aria-label]="'Product: ' + product.name"
+    />
+    }
+  </section>
+
+  <button
+    [routerLink]="['/', 'cart']"
+    (keydown.enter)="router.navigate(['/cart'])"
+    (keydown.space)="router.navigate(['/cart'])"
+  >
+    {{ "product.viewCart" | translate }}
+  </button>
+</article>

@@ -1,0 +1,15 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+:host {
+  flex: 1;
+  border-radius: 12px;
+  padding: 1.5rem;
+  @include card-box-shadow;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

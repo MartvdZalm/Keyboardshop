@@ -1,0 +1,14 @@
+<span class="pagination">
+  <button (click)="previousPage()" [disabled]="!canGoPrevious()">
+    {{ "category.previous" | translate }}
+  </button>
+
+  <span>
+    <p>{{ "category.page" | translate }}</p>
+    {{ currentPage() + 1 }} {{ "category.of" | translate }} {{ totalPages() }}
+  </span>
+
+  <button (click)="nextPage()" [disabled]="!canGoNext()">
+    {{ "category.next" | translate }}
+  </button>
+</span>

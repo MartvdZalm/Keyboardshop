@@ -1,0 +1,23 @@
+@use "../../../styles/mixins" as *;
+@use "../../../styles/variables" as *;
+
+article {
+  section {
+    padding: 4rem 1.5rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+      color: $primary-color;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.6;
+      color: $tertiary-color;
+    }
+  }
+}

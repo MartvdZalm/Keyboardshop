@@ -1,0 +1,92 @@
+<header>
+  <nav>
+    <button
+      class="hamburger material-icons"
+      (click)="toggleMenu()"
+      (keydown.enter)="toggleMenu()"
+      (keydown.space)="toggleMenu(); $event.preventDefault()"
+      [attr.aria-expanded]="isMenuOpen()"
+      aria-label="Toggle menu"
+    >
+      {{ isMenuOpen() ? "close" : "menu" }}
+    </button>
+
+    <a
+      class="company__logo"
+      routerLink="/"
+      aria-label="Go to homepage"
+      tabindex="0"
+    >
+      <img src="images/logo.png" alt="The KeyHub Logo" />
+      <h2>KeyHub</h2>
+    </a>
+
+    <input
+      type="text"
+      class="search"
+      [(ngModel)]="enteredSearch"
+      placeholder="{{ 'header.searchPlaceholder' | translate }}"
+      (keydown.enter)="onSearch()"
+      tabindex="0"
+      aria-label="Search products"
+    />
+
+    <span class="nav__group nav__links" [class.active]="isMenuOpen()">
+      @if (isMenuOpen()) {
+      <a
+        class="nav__group__link"
+        (click)="toggleMenu()"
+        routerLink="/"
+        tabindex="0"
+        >Home</a
+      >
+      }
+
+      <a
+        class="nav__group__link"
+        (click)="closeMenu()"
+        [routerLink]="['/assortment']"
+        tabindex="0"
+        >{{ "header.assortment" | translate }}</a
+      >
+
+      @for (category of categories(); track category.id) {
+      <a
+        class="nav__group__link"
+        (click)="closeMenu()"
+        [routerLink]="['/category', category.slug]"
+        tabindex="0"
+        [attr.aria-label]="'View ' + category.name + ' category'"
+        >{{ category.name }}</a
+      >
+      }
+      <a
+        class="nav__group__link"
+        (click)="closeMenu()"
+        routerLink="about"
+        tabindex="0"
+        >{{ "header.aboutUs" | translate }}</a
+      >
+    </span>
+
+    <span class="nav__group">
+      <app-switch-language tabindex="0" />
+      <a
+        [routerLink]="['/user']"
+        tabindex="0"
+        role="button"
+        aria-label="User account"
+      >
+        <i class="material-icons">person</i>
+      </a>
+      <a
+        [routerLink]="['/cart']"
+        tabindex="0"
+        role="button"
+        aria-label="Shopping cart"
+      >
+        <i class="material-icons">shopping_cart</i>
+      </a>
+    </span>
+  </nav>
+</header>

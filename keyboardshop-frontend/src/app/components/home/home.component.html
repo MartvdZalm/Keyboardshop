@@ -1,0 +1,9 @@
+<app-spacer />
+
+<section class="category__container">
+  @for (category of categories(); track category.id) {
+    <app-category-item [category]="category" />
+  }
+</section>
+
+<app-product-carousel />

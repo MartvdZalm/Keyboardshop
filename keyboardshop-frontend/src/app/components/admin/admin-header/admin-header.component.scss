@@ -1,0 +1,38 @@
+@use "../../../../styles/mixins" as *;
+
+header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  p {
+    margin-right: 20px;
+  }
+
+  span {
+    display: none;
+    font-size: 30px;
+    margin: 20px;
+
+    @include tablet {
+      display: block;
+    }
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  @include tablet {
+    justify-content: space-between;
+  }
+
+  @include mobile {
+    justify-content: space-between;
+  }
+}

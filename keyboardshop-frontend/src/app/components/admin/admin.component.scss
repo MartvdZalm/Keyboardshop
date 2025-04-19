@@ -1,0 +1,19 @@
+@use "../../../styles/mixins" as *;
+
+:host {
+  display: flex;
+  width: 100vw;
+
+  article {
+    width: 100%;
+
+    .admin__container__view {
+      display: flex;
+      height: calc(100vh - 60px);
+      overflow: auto;
+      flex-direction: column;
+      background-color: #f5f5f5;
+    }
+  }
+}
+

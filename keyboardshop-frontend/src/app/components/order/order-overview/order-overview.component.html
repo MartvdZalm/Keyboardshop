@@ -1,0 +1,8 @@
+<section class="products">
+  @for (product of products(); track product.id) {
+  <app-order-overview-product
+    [productId]="product.id"
+    [price]="product.price"
+  />
+  }
+</section>

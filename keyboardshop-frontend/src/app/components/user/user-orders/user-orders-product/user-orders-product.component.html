@@ -1,0 +1,17 @@
+<li class="product">
+  <img
+    [src]="imageUrl + product().productImage"
+    [alt]="productName()"
+  />
+  <section class="product__details">
+    <span class="info">
+      <p class="product__name">{{ productName() }}</p>
+      <p class="product__quantity">
+        {{ "user.orders.quantity" | translate }}: {{ product().quantity }}
+      </p>
+    </span>
+    <p class="product__price">
+      {{ product().productPrice * product().quantity | currency : "EUR" }}
+    </p>
+  </section>
+</li>

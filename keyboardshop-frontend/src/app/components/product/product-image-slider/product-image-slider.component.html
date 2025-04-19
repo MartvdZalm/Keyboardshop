@@ -1,0 +1,21 @@
+<section>
+  @if (images()) {
+    <img
+      class="selected-image"
+      [src]="imageUrl + images()[imageIndex()].url"
+      alt="Product Image"
+    />
+  }
+
+  <span>
+    @for (image of images(); track image.id; let i = $index) {
+      <img
+        [src]="imageUrl + image.url"
+        alt="Thumbnail Image"
+        (click)="changeMainImage(i)"
+        (keydown.enter)="changeMainImage(i)"
+        tabindex="0"
+      />
+    }
+  </span>
+</section>

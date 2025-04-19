@@ -1,0 +1,44 @@
+<app-toast />
+
+<section>
+  <h2>{{ product()!.name }}</h2>
+
+  <p>{{ product()!.price | currency : "EUR" }}</p>
+
+  @if (product()!.quantity > 0) {
+    <p class="in-stock">{{ "product.inStock" | translate }}</p>
+
+    <span class="quantity__container">
+      <input
+        type="number"
+        name="quantity"
+        id="quantity"
+        min="1"
+        [max]="getMaxQuantity()"
+        [(ngModel)]="quantity"
+      />
+    </span>
+
+    <button
+      class="product__cart-btn"
+      (click)="onAddToCart()"
+      (keydown.enter)="onAddToCart()"
+      (keydown.space)="onAddToCart()"
+    >
+      <i class="material-icons">shopping_cart</i>
+      {{ "product.addToCart" | translate }}
+    </button>
+
+  } @else {
+    <p class="out-of-stock">Out of Stock</p>
+    <button
+      class="product__cart-btn"
+      disabled
+      aria-disabled="true"
+      aria-label="This product is out of stock"
+    >
+      <i class="material-icons">shopping_cart</i>
+      {{ "product.addToCart" | translate }}
+    </button>
+  }
+</section>

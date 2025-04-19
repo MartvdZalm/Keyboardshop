@@ -1,0 +1,9 @@
+<article class="toast-container">
+  @for (toast of toasts(); track toast.id) {
+  <section class="toast-{{ toast.type }}" @fadeInOut role="alert">
+    <i class="material-icons">{{ getIcon(toast.type) }}</i>
+    <p [id]="'toast-message-' + toast.id">{{ toast.message }}</p>
+    <button (click)="dismiss(toast.id!)">&times;</button>
+  </section>
+  }
+</article>

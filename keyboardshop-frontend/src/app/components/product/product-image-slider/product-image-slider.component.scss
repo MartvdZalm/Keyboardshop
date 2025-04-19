@@ -1,0 +1,45 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+
+  .selected-image {
+    width: 400px;
+    object-fit: cover;
+    height: 300px;
+    border: 1px solid $tertiary-color;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    img {
+      width: 80px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border 0.3s ease;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 1px solid $tertiary-color;
+
+
+      &:hover {
+        border: 1px solid $tertiary-color;
+      }
+    }
+
+  }
+}

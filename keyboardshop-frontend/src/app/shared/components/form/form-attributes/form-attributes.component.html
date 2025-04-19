@@ -1,0 +1,27 @@
+<article [formGroup]="form()">
+  <label [for]="controlName()">{{ label() }}</label>
+
+  <section formArrayName="attributes">
+    @for (attribute of attributes.controls; track attribute; let i = $index) {
+      <span class="attribute__pair" [formGroupName]="i">
+        <span>
+          <input type="text" formControlName="name" required />
+          <p class="error-message">
+            {{ errorMessage(i, 'name') }}
+          </p>
+        </span>
+        
+        <span>
+          <input type="text" formControlName="value" required />
+          <p class="error-message">
+            {{ errorMessage(i, 'value') }}
+          </p>
+        </span>
+        
+        <button type="button" (click)="removeAttribute(i)">{{ 'admin.product.delete' | translate }}</button>
+      </span>
+    }
+  </section>
+
+  <button type="button" class="form__add" (click)="addAttribute()">{{ 'admin.product.addAttribute' | translate }}</button>
+</article>

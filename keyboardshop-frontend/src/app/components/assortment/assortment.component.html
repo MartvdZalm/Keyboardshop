@@ -1,0 +1,22 @@
+<app-toast />
+
+<app-bread-crumbs [breadcrumbs]="breadcrumbs()" />
+
+<section class="container">
+  <app-sidebar-filter />
+
+  <section class="products">
+      @for (product of products(); track product.id) {
+        <app-product-item [product]="product" (addProductToCart)="onAddProductToCart()" />
+      }
+  </section>  
+</section>
+
+@if (totalProducts() > pageSize) {
+  <app-pagination
+    [currentPage]="currentPage()"
+    [totalPages]="totalPages()"
+    [pageSize]="pageSize"
+    (pageChange)="onPageChange($event)"
+  />
+}

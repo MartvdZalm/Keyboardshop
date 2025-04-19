@@ -1,0 +1,81 @@
+<app-toast />
+
+<form [formGroup]="orderForm" (submit)="onSubmit()" class="order-form">
+  <h3>{{ 'order.orderForm.shippingInformation' | translate }}</h3>
+
+  @if (!isAuthenticated) {
+    <app-form-input
+      [form]="orderForm"
+      controlName="email"
+      [label]="'auth.email' | translate"
+      [validationMessages]="{
+        required: 'validation.email.required' | translate,
+        email: 'validation.email.invalid' | translate
+      }"
+    />
+  }
+
+  <section class="order-form__row">
+    <app-form-input
+      [form]="orderForm"
+      controlName="firstName"
+      [label]="'auth.firstName' | translate"
+      [validationMessages]="{
+        required: 'validation.firstName.required' | translate,
+        minlength: 'validation.firstName.minLength' | translate,
+        maxlength: 'validation.firstName.maxLength' | translate
+      }"
+    />
+
+    <app-form-input
+      [form]="orderForm"
+      controlName="lastName"
+      [label]="'auth.lastName' | translate"
+      [validationMessages]="{
+        required: 'validation.lastName.required' | translate,
+        minlength: 'validation.lastName.minLength' | translate,
+        maxlength: 'validation.lastName.maxLength' | translate
+      }"
+    />
+  </section>
+
+  <app-form-input
+    [form]="orderForm"
+    controlName="streetName"
+    [label]="'auth.streetName' | translate"
+    [validationMessages]="{
+      required: 'validation.streetName.required' | translate,
+    }"
+  />
+
+  <section class="order-form__row">
+    <app-form-input
+      [form]="orderForm"
+      controlName="houseNumber"
+      [label]="'auth.houseNumber' | translate"
+      [validationMessages]="{
+        required: 'validation.houseNumber.required' | translate,
+      }"
+    />
+
+    <app-form-input
+      [form]="orderForm"
+      controlName="postalCode"
+      [label]="'auth.postalCode' | translate"
+      [validationMessages]="{
+        required: 'validation.postalCode.required' | translate,
+      }"
+    />
+  </section>
+
+  <app-form-input
+    [form]="orderForm"
+    controlName="city"
+    [label]="'auth.city' | translate"
+    [validationMessages]="{
+      required: 'validation.city.required' | translate,
+    }"
+  />
+  
+  <button type="submit" class="order-form__submit">{{ 'order.orderForm.placeOrder' | translate }}</button>
+</form> 

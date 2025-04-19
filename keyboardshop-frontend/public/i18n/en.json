@@ -1,0 +1,258 @@
+{
+  "toast": {
+    "product": {
+      "created": "Product is successfully created!",
+      "updated": "Product is successfully updated!",
+      "createError": "An unexpected error occurred while creating the product!",
+      "updateError": "Error while updating product!",
+      "delete": "Product deleted successfully!",
+      "deleteError": "Error deleting product!",
+      "activate": "Product activated successfully!",
+      "deactivate": "Product deactivated successfully!",
+      "invalidFields": "Invalid fields: {{ fields }}",
+      "cartAdded": "Added product to cart!"
+    },
+    "order": {
+      "placed": "Order placed successfully!"
+    },
+    "user": {
+      "update": "User successfully updated!",
+      "credentials": "Please check your credentials!"
+    },
+    "cart": {
+      "limit": "You cannot add more than 10 of this item."
+    }
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "description": "At KeyHub, we’re passionate about mechanical keyboards and the accessories that complete your setup. Whether you're a seasoned enthusiast or just getting started, our carefully curated selection is designed to meet every need. Quality, customization, and community — that’s what we stand for."
+  },
+  "noResults": {
+    "title": "No products found for \"{{ searchQuery }}\"",
+    "suggestions": {
+      "title": "Try these suggestions instead:",
+      "checkSpelling": "Check your spelling",
+      "useGenericTerms": "Use more generic terms",
+      "browseCategories": "Browse our categories"
+    },
+    "showAllProducts": "Show All Products"
+  },
+  "assortment": {
+    "assortment": "Assortment"
+  },
+  "header": {
+    "assortment": "Assortment",
+    "aboutUs": "About Us",
+    "searchPlaceholder": "Search..."
+  },
+  "category": {
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "of": "of"
+  },
+  "order": {
+    "orderForm": {
+      "shippingInformation": "Shipping Information",
+      "placeOrder": "Place Order"
+    },
+    "orderOverview": {
+      "quantity": "Quantity"
+    }
+  },
+  "notFound": {
+    "404": "Page Not Found",
+    "404Message": "Sorry, the page you are looking for does not exist.",
+    "tryThese": "Try these suggestions instead:",
+    "checkUrl": "Check the URL for typos",
+    "search": "Use the search bar to find what you're looking for",
+    "home": "Go to the homepage",
+    "goHome": "Go to Homepage"
+  },
+  "footer": {
+    "company": "Company",
+    "aboutUs": "About us",
+    "privacyPolicy": "Privacy Policy",
+    "customerService": "Customer Service",
+    "termsOfService": "Terms of Service"
+  },
+  "product": {
+    "inStock": "In Stock",
+    "addToCart": "Add To Cart",
+    "description": "Description",
+    "specifications": "Specifications",
+    "yourCart": "Your Cart",
+    "viewCart": "View Cart"
+  },
+  "user": {
+    "orders": {
+      "yourOrders": "Your Orders",
+      "order": "Order",
+      "quantity": "Quantity",
+      "noOrders": "You have no orders yet."
+    },
+    "profile": {
+      "profile": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "street": "Street",
+      "address": "Address",
+      "phone": "Phone"
+    },
+    "settings": {
+      "profile": "Profile",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "sidebar": {
+      "profile": "Profile",
+      "orders": "Orders",
+      "settings": "Settings",
+      "adminPanel": "Admin Panel",
+      "logout": "Logout"
+    }
+  },
+  "cart": {
+    "shoppingCart": "Shopping Cart",
+    "overview": "Overview",
+    "products": "Products",
+    "shippingCost": "Shipping Cost",
+    "total": "Total",
+    "checkout": "Checkout",
+    "emptyCartMessage": "Shopping Cart is empty",
+    "emptyCart": "Empty Cart"
+  },
+  "auth": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "password": "Password",
+    "streetName": "Street Name",
+    "houseNumber": "House Number",
+    "postalCode": "Postal Code",
+    "city": "City",
+    "phoneNumber": "Phone Number",
+    "register": {
+      "title": "Register",
+      "button": "Register",
+      "loginLink": "Login"
+    },
+    "login": {
+      "title": "Login",
+      "button": "Login",
+      "registerLink": "Create account"
+    }
+  },
+  "admin": {
+    "product": {
+      "name": "Name",
+      "nameNL": "Name (Dutch)",
+      "nameEN": "Name (English)",
+      "descriptionNL": "Description (Dutch)",
+      "descriptionEN": "Description (English)",
+      "description": "Description",
+      "price": "Price",
+      "quantity": "Quantity",
+      "images": "Images",
+      "attributes": "Attributes",
+      "category": "Category",
+      "cancel": "Cancel",
+      "save": "Save",
+      "deactivate": "Deactivate",
+      "activate": "Activate",
+      "delete": "Hard Delete",
+      "addAttribute": "Add Attribute"
+    },
+    "users": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email"
+    },
+    "sidebar": {
+      "title": "Admin Panel",
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "products": "Products",
+      "orders": "Orders",
+      "settings": "Settings"
+    },
+    "products": {
+      "name": "Name",
+      "price": "Price",
+      "active": "Active",
+      "quantity": "Quantity",
+      "category": "Category",
+      "actions": "Actions",
+      "createProduct": "Create Product",
+      "edit": "Edit"
+    },
+    "orders": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email"
+    }
+  },
+  "validation": {
+    "firstName": {
+      "required": "First name is required",
+      "minLength": "First name must be at least 2 characters long",
+      "maxLength": "First name cannot be longer than 50 characters"
+    },
+    "lastName": {
+      "required": "Last name is required",
+      "minLength": "Last name must be at least 2 characters long",
+      "maxLength": "Last name cannot be longer than 50 characters"
+    },
+    "email": {
+      "required": "Email is required",
+      "invalid": "Please enter a valid email"
+    },
+    "password": {
+      "required": "Password is required",
+      "minlength": "Password must be at least 8 characters long",
+      "maxlength": "Password cannot be longer than 30 characters",
+      "pattern": "Password must include at least one uppercase letter, one lowercase letter, one number, and one special character"
+    },
+    "streetName": {
+      "required": "Street name is required"
+    },
+    "houseNumber": {
+      "required": "House number is required"
+    },
+    "postalCode": {
+      "required": "Postal code is required"
+    },
+    "city": {
+      "required": "City is required"
+    },
+    "phoneNumber": {
+      "required": "Phone number is required",
+      "pattern": "Invalid phone number format. Please use a valid format like +123 456 7890 or 0123456789."
+    },
+    "failed": {
+      "login": "Login failed. Please check your credentials.",
+      "register": "Register failed. Please check your credentials."
+    },
+    "name": {
+      "required": "Product name is required"
+    },
+    "description": {
+      "required": "Description is required"
+    },
+    "price": {
+      "required": "Price is required"
+    },
+    "quantity": {
+      "required": "Quantity is required"
+    },
+    "images": {
+      "required": "Image is required"
+    },
+    "attributes": {
+      "required": "Attribute is required"
+    },
+    "category": {
+      "required": "Category is required"
+    }
+  }
+}

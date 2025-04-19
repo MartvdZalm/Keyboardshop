@@ -1,0 +1,20 @@
+<app-admin-table [title]="'admin.sidebar.users' | translate">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>{{ 'admin.users.firstName' | translate  }}</th>
+      <th>{{ 'admin.users.lastName' | translate  }}</th>
+      <th>{{ 'admin.users.email' | translate  }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (user of users(); track user.id) {
+      <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.firstName }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.email }}</td>
+      </tr>  
+    }
+  </tbody>
+</app-admin-table>

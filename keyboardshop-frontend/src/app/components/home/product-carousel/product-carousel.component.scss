@@ -1,0 +1,53 @@
+@use "../../../../styles/mixins" as *;
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .carousel__wrapper {
+    overflow: hidden;
+    width: 100%;
+    margin: 50px 10px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      transition: transform 0.3s ease-in-out;
+  
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+  button {
+    background: white;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    &:hover {
+      background: lightgray;
+    }
+  }
+
+  @include tablet {
+    max-width: 600px;
+  }
+
+  @include mobile {
+    max-width: 100%;
+  }
+}

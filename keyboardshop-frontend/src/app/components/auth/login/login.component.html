@@ -1,0 +1,34 @@
+<form [formGroup]="loginForm" (submit)="onSubmit()">
+  <h2>{{ 'auth.login.title' | translate }}</h2>
+  <app-form-input
+    [form]="loginForm"
+    controlName="email"
+    [label]="'auth.email' | translate"
+    [validationMessages]="{
+      required: 'validation.email.required' | translate,
+      email: 'validation.email.invalid' | translate
+    }"
+  />
+
+
+  <app-form-input
+    [form]="loginForm"
+    type="password"
+    controlName="password"
+    [label]="'auth.password' | translate"
+    [validationMessages]="{
+      required: 'validation.password.required' | translate,
+      minlength: 'validation.password.minlength' | translate,
+      maxlength: 'validation.password.maxlength' | translate,
+      pattern: 'validation.password.pattern' | translate
+    }"
+  />
+
+  <button type="submit">{{ 'auth.login.button' | translate }}</button>
+  
+  @if (errorMessage) {
+    <p class="error-message">{{ errorMessage | translate }}</p>
+  }
+
+  <a routerLink="/register">{{ 'auth.login.registerLink' | translate }}</a>
+</form>

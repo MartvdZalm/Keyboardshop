@@ -1,0 +1,50 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.product__description {
+  width: 800px;
+  color: white;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: $primary-color;
+
+  h3 {
+    font-size: 1.7rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+
+  @include tablet {
+    width: 90%;
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+
+  ::ng-deep h1,
+  ::ng-deep h2, 
+  ::ng-deep h3, 
+  ::ng-deep h4, 
+  ::ng-deep h5, 
+  ::ng-deep h6 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  ::ng-deep p {
+    margin-bottom: 1.5em;
+    color: #e9ecef;
+  }
+
+  ::ng-deep ul,
+  ::ng-deep ol {
+    margin-bottom: 16px;
+    padding-left: 16px;
+  }
+
+  ::ng-deep li {
+    margin-bottom: 6px;
+  }
+}

@@ -1,0 +1,26 @@
+@for (confirmation of confirmations(); track confirmation.id) {
+  <article class="confirmation__overlay">
+    <section class="confirmation">
+      @if (confirmation.title) {
+      <h3 class="confirmation__title">{{ confirmation.title }}</h3>
+      }
+      <p class="confirmation__message">{{ confirmation.message }}</p>
+      <span class="confirmation__actions">
+        <button
+          type="button"
+          class="confirmation__actions--cancel"
+          (click)="confirmation.onCancel?.()"
+        >
+          {{ confirmation.cancelText }}
+        </button>
+        <button
+          type="button"
+          class="confirmation__actions--confirm"
+          (click)="confirmation.onConfirm()"
+        >
+          {{ confirmation.confirmText }}
+        </button>
+      </span>
+    </section>
+  </article>
+}

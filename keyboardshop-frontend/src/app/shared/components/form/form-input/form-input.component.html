@@ -1,0 +1,20 @@
+<section [formGroup]="form()">
+  <label [for]="controlName()">{{ label() }}</label>
+  <input
+    [type]="type()"
+    [formControlName]="controlName()"
+    [class.error]="
+      form().get(controlName())?.invalid &&
+      form().get(controlName())?.touched
+    "
+  />
+  @if (
+    form().get(controlName())?.invalid &&
+    form().get(controlName())?.touched
+    )
+  {
+  <p class="error-message">
+    {{ getErrorMessage() }}
+  </p>
+  }
+</section>

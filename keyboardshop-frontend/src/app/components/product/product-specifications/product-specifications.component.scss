@@ -1,0 +1,60 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+@use "sass:color";
+
+.product__specifications {
+  width: 800px;
+  color: white;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: $primary-color;
+
+  @include tablet {
+    width: 90%;
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+
+    tbody {
+
+      tr:nth-child(even) {
+        background-color: color.scale($primary-color, $lightness: -5%);;
+      }
+
+      tr:nth-child(odd) {
+        background-color: color.scale($primary-color, $lightness: 5%);;
+    
+      }
+
+      td {
+        padding: 10px;
+      }
+
+      td:first-child {
+        font-weight: bold;
+      }
+
+      @include mobile {
+        td:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

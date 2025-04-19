@@ -1,0 +1,54 @@
+article {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 20px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 350px;
+
+    i {
+      margin-right: 12px;
+      font-size: 24px;
+    }
+
+    p {
+      flex-grow: 1;
+      margin-right: 5px;
+    }
+
+    button {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+
+  .toast-success {
+    background: #4CAF50;
+  }
+  
+  .toast-error {
+    background: #F44336;
+  }
+  
+  .toast-info {
+    background: #2196F3;
+  }
+  
+  .toast-warning {
+    background: #FF9800;
+  }
+}

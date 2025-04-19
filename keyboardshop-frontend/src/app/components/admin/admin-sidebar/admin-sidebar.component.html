@@ -1,0 +1,12 @@
+<section class="sidebar" [class.open]="isOpen()">
+  <h1>{{ 'admin.sidebar.title' | translate }}</h1>
+
+  @for (item of sidebarItems; track item.link) {
+  <app-admin-sidebar-item
+    [icon]="item.icon"
+    [label]="item.label"
+    [link]="item.link"
+    (click)="onCloseSidebar()"
+  />
+  }
+</section>

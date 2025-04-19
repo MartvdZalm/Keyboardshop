@@ -1,0 +1,31 @@
+<app-spacer />
+
+<footer aria-label="Website footer">
+  <span class="company__logo">
+    <img src="images/logo.png" alt="" />
+  </span>
+
+  <section aria-label="Company information">
+    <h3>{{ "footer.company" | translate }}</h3>
+    <ul>
+      <li>
+        <a routerLink="/about">{{ "footer.aboutUs" | translate }}</a>
+      </li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <a href="#">{{ "footer.privacyPolicy" | translate }}</a>
+      </li>
+    </ul>
+  </section>
+
+  <section aria-label="Customer service">
+    <h3>{{ "footer.customerService" | translate }}</h3>
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li>
+        <a href="#">{{ "footer.termsOfService" | translate }}</a>
+      </li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </section>
+</footer>

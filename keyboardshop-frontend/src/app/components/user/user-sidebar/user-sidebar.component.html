@@ -1,0 +1,44 @@
+<ul>
+  <li
+    routerLink="profile"
+    routerLinkActive="active"
+    (keydown.enter)="navigateTo('user/profile')"
+    tabindex="0"
+  >
+    <i class="material-icons">person</i>
+    <span>{{ "user.sidebar.profile" | translate }}</span>
+  </li>
+  <li
+    routerLink="orders"
+    routerLinkActive="active"
+    (keydown.enter)="navigateTo('user/orders')"
+    tabindex="0"
+  >
+    <i class="material-icons">shopping_cart</i>
+    <span>{{ "user.sidebar.orders" | translate }}</span>
+  </li>
+  <li
+    routerLink="settings"
+    routerLinkActive="active"
+    (keydown.enter)="navigateTo('user/settings')"
+    tabindex="0"
+  >
+    <i class="material-icons">settings</i>
+    <span>{{ "user.sidebar.settings" | translate }}</span>
+  </li>
+  @if (isAdmin) {
+  <li
+    [routerLink]="['/', 'admin']"
+    routerLinkActive="active"
+    (keydown.enter)="navigateTo('/admin')"
+    tabindex="0"
+  >
+    <i class="material-icons">shield</i>
+    <span>{{ "user.sidebar.adminPanel" | translate }}</span>
+  </li>
+  }
+  <li (click)="onLogout()" (keydown.enter)="onLogout()" tabindex="0">
+    <i class="material-icons">logout</i>
+    <span>{{ "user.sidebar.logout" | translate }}</span>
+  </li>
+</ul>

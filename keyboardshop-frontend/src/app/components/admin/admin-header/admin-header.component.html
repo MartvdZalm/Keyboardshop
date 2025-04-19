@@ -1,0 +1,12 @@
+<header>
+  <span
+    (click)="onToggleSidebar()"
+    class="material-icons"
+    (keydown.enter)="onToggleSidebar()"
+    tabindex="0"
+    >menu</span
+  >
+  @if (user()) {
+  <p>{{ user()!.firstName }} {{ user()!.lastName }}</p>
+  }
+</header>

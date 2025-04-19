@@ -1,0 +1,44 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  @include card-box-shadow;
+  border-radius: 8px;
+  background-color: white;
+
+  &__buttons {
+    display: flex;
+    gap: 10px;
+
+    @include mobile {
+      flex-wrap: wrap;
+    }
+
+    .active {
+      background-color: $secondary-color;
+    }
+
+    &-cancel {
+      @include button-style($tertiary-color);
+    }
+
+    &-save {
+      @include button-style($primary-color);
+    }
+
+    &-deactivate,
+    &-activate {
+      @include button-style(orange);
+    }
+
+    &-delete {
+      @include button-style(red);
+    }
+  }
+}

@@ -1,0 +1,1920 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"confi",
+				"Configuration"
+			],
+			[
+				"glfwSwap",
+				"glfwSwapBuffers"
+			],
+			[
+				"render",
+				"renderCallback"
+			],
+			[
+				"GLFW",
+				"GLFWwindow"
+			],
+			[
+				"Windo",
+				"WindowSettings"
+			],
+			[
+				"VECT",
+				"VECTOR3_DIV"
+			],
+			[
+				"oper",
+				"operator-"
+			],
+			[
+				"VECTOR",
+				"VECTOR3_MUL"
+			],
+			[
+				"operat",
+				"operator-"
+			],
+			[
+				"Vect",
+				"Vector3"
+			],
+			[
+				"fra",
+				"fragmentShader"
+			],
+			[
+				"fr",
+				"fragmentSource"
+			],
+			[
+				"WINDO",
+				"WINDOW_TITLE"
+			],
+			[
+				"WINDOW",
+				"WINDOW_HEIGHT"
+			],
+			[
+				"Log",
+				"LogLevel"
+			],
+			[
+				"ios",
+				"iostream"
+			],
+			[
+				"compan",
+				"company-address"
+			],
+			[
+				"HTMLTO",
+				"HTMLToText"
+			],
+			[
+				"prod",
+				"$productItem"
+			],
+			[
+				"company",
+				"companyAddress"
+			],
+			[
+				"aller",
+				"$allergies"
+			],
+			[
+				"prodct",
+				"$productMoreResult"
+			],
+			[
+				"TrimM",
+				"TrimMultiline"
+			],
+			[
+				"PROD",
+				"PRODUCT_MORE"
+			],
+			[
+				"Poies",
+				"PoieszPageTypes"
+			],
+			[
+				"Sear",
+				"SearchRank"
+			],
+			[
+				"serc",
+				"$searchProductResult"
+			],
+			[
+				"setUni",
+				"setUniqueId"
+			],
+			[
+				"SEARCH_M",
+				"SEARCH_METHOD_UNIQUE_ID"
+			],
+			[
+				"extract",
+				"extractTypedResult"
+			],
+			[
+				"type",
+				"typehandler\tCreate a new TypeHandler class"
+			],
+			[
+				"extracter",
+				"extracterchain\tCreate a new ExtracterChain"
+			],
+			[
+				"REG",
+				"REGEX_PRODUCT"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"setupTr",
+				"setupTerminal"
+			],
+			[
+				"Poiesz",
+				"PoieszPageTypes"
+			],
+			[
+				"cate",
+				"categoryIds"
+			],
+			[
+				"Poi",
+				"PoieszPageTypes"
+			],
+			[
+				"ca",
+				"$categoryCrumb"
+			],
+			[
+				"Require",
+				"RequiredException"
+			],
+			[
+				"nam",
+				"namespace"
+			],
+			[
+				"RootCate",
+				"RootCategoryExtracterChain"
+			],
+			[
+				"root",
+				"$rootCategoryResult"
+			],
+			[
+				"roo",
+				"$rootCategoryResult"
+			],
+			[
+				"ro",
+				"$rootCategoryResult"
+			],
+			[
+				"RootCategoryExtracterChain",
+				"RootCategoryExtracterChain [App\\Crawler\\Retailer\\Poiesz\\ExtracterChains]"
+			],
+			[
+				"RequiredExcet",
+				"RequiredException"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"data",
+				"data-window-id"
+			],
+			[
+				"all",
+				"allTaskbarItems"
+			],
+			[
+				"client",
+				"clientX"
+			],
+			[
+				"start",
+				"startHeight"
+			],
+			[
+				"cle",
+				"clientY"
+			],
+			[
+				"resizeHandle",
+				"resizeHandleBR"
+			],
+			[
+				"resizeHan",
+				"resizeHandleR"
+			],
+			[
+				"resize",
+				"resizeHandleB"
+			],
+			[
+				"resze",
+				"resizeHandleB"
+			],
+			[
+				"clien",
+				"clientY"
+			],
+			[
+				"ma",
+				"maxZIndex"
+			],
+			[
+				"getElemen",
+				"getElementsByClassName"
+			],
+			[
+				"targe",
+				"targetWindowId"
+			],
+			[
+				"startM",
+				"startMenuButton"
+			],
+			[
+				"of",
+				"offsetY"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"flex-",
+				"flex-end"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"win",
+				"window__x__btn"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"getEl",
+				"getElementsByClassName"
+			],
+			[
+				"startMen",
+				"startMenuSubItems"
+			],
+			[
+				"startMenu",
+				"startMenuPrograms"
+			],
+			[
+				"algin-",
+				"align-content"
+			],
+			[
+				"--fon",
+				"--font-family-1"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"sc",
+				"scrolling-icon"
+			],
+			[
+				"col",
+				"column-reverse"
+			],
+			[
+				"puz",
+				"puzzle__container"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"erro",
+				"errors"
+			],
+			[
+				"web",
+				"websiteCodes"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"setReurn",
+				"setReturnSingleKey"
+			],
+			[
+				"file_",
+				"file_put_contents"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"time",
+				"timeline__item"
+			],
+			[
+				"timeline__item",
+				"timeline__item--right"
+			],
+			[
+				"self-",
+				"self-end"
+			],
+			[
+				"timelin",
+				"timeline__container"
+			],
+			[
+				"colu",
+				"column-reverse"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"update",
+				"updateBlogProgressBar"
+			],
+			[
+				"code",
+				"codeEntryForm"
+			],
+			[
+				"codeEn",
+				"codeEntryInput"
+			],
+			[
+				"acces",
+				"access-code"
+			],
+			[
+				"prox",
+				"proxyUrl"
+			],
+			[
+				"proxy",
+				"proxyUrl"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"space",
+				"space-evenly"
+			],
+			[
+				"cast",
+				"castSrc"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"fq",
+				"faqQuestionChildren"
+			],
+			[
+				"faq",
+				"faqQuestions"
+			],
+			[
+				"f",
+				"faqQuestions"
+			],
+			[
+				"cst",
+				"cstdlib"
+			],
+			[
+				"ProductExtracterChain",
+				"ProductExtracterChain [App\\Crawler\\Retailer\\MitraNL\\ExtracterChains]"
+			],
+			[
+				"Stati",
+				"Statistics"
+			],
+			[
+				"SaleStringExtrat",
+				"SaleStringExtracterChain [App\\Crawler\\Retailer\\MitraNL\\ExtracterChains]"
+			],
+			[
+				"Stat",
+				"Statistics"
+			],
+			[
+				"categ",
+				"$categoryProductResult"
+			],
+			[
+				"unique",
+				"unique_id"
+			],
+			[
+				"REGEX",
+				"REGEX_UNIQUE_ID"
+			],
+			[
+				"unqie",
+				"unique-id"
+			],
+			[
+				"RootExtrac",
+				"RootExtracterChain [App\\Crawler\\Retailer\\MitraNL\\ExtracterChains]"
+			],
+			[
+				"atr",
+				"attribute"
+			],
+			[
+				"rel",
+				"$relatedProductResult"
+			],
+			[
+				"MitraN",
+				"MitraNLConfig"
+			],
+			[
+				"Trans",
+				"TransformerChain"
+			],
+			[
+				"uni",
+				"unique_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project manager:",
+				"Project Manager: Remove Dead Projects"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"schem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"preferences term",
+				"Preferences: Terminus View Settings"
+			],
+			[
+				"terminus setting",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov e",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pak",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"minim",
+				"View: Toggle Minimap"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"keybi",
+				"Preferences: Key Bindings"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"use n",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"json",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"key bi",
+				"Preferences: Key Bindings"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"brows p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"key bin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"git ",
+				"Git Blame: Show All"
+			],
+			[
+				"preferences: term",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"remve",
+				"Package Control: Remove Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"preferences: termin",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"terminus: open",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"terminus: close all",
+				"Terminus: Close All"
+			],
+			[
+				"terminus: close",
+				"Terminus: Close All"
+			],
+			[
+				"terminus: oen",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"open ",
+				"Terminal: Open"
+			],
+			[
+				"use ",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"use",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"minimap",
+				"View: Toggle Minimap"
+			],
+			[
+				"sni",
+				"Snippet: Interface"
+			],
+			[
+				"refrs",
+				"Project: Refresh Folders"
+			],
+			[
+				"preferences",
+				"Preferences: Settings"
+			],
+			[
+				"set syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"refresh folders",
+				"Project: Refresh Folders"
+			],
+			[
+				"scheme",
+				"UI: Select Theme"
+			],
+			[
+				"pre",
+				"Preferences: Settings"
+			],
+			[
+				"prefer",
+				"Preferences: Settings"
+			],
+			[
+				"prefe",
+				"Preferences: Key Bindings"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"usen",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"refes",
+				"Project: Refresh Folders"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"set syntax p",
+				"Set Syntax: Python"
+			],
+			[
+				"set python ",
+				"Set Syntax: Python"
+			],
+			[
+				"reffre",
+				"Project: Refresh Folders"
+			],
+			[
+				"copy j",
+				"JSONPath: Copy"
+			],
+			[
+				"cus",
+				"UI: Customize Theme"
+			],
+			[
+				"select th",
+				"UI: Select Theme"
+			],
+			[
+				"cuso",
+				"UI: Customize Theme"
+			],
+			[
+				"select",
+				"UI: Select Theme"
+			],
+			[
+				"cusom",
+				"UI: Customize Theme"
+			],
+			[
+				"them",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"git blam",
+				"Git Blame: Show All"
+			],
+			[
+				"git b",
+				"Git Blame: Show All"
+			],
+			[
+				"refe",
+				"Project: Refresh Folders"
+			],
+			[
+				"git bam",
+				"Git Blame: Show All"
+			],
+			[
+				"dist",
+				"View: Toggle Distraction Free"
+			],
+			[
+				"distr",
+				"View: Toggle Distraction Free"
+			],
+			[
+				"refresh folder",
+				"Project: Refresh Folders"
+			],
+			[
+				"us en",
+				"Preferences: LSP Utils Settings"
+			],
+			[
+				"refresh fol",
+				"Project: Refresh Folders"
+			],
+			[
+				"dis",
+				"View: Toggle Distraction Free"
+			],
+			[
+				"distraction",
+				"View: Toggle Distraction Free"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax C++",
+				"Set Syntax: C++"
+			],
+			[
+				"Project: re",
+				"Project: Refresh Folders"
+			],
+			[
+				"set syntax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set syntax js",
+				"Set Syntax: JSON"
+			],
+			[
+				"sey stnax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set them",
+				"UI: Select Theme"
+			],
+			[
+				"set color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set theme",
+				"UI: Select Theme"
+			],
+			[
+				"set syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"rrefr",
+				"Project: Refresh Folders"
+			],
+			[
+				"r",
+				"Package Control: Remove Repository"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"git bl",
+				"Git Blame: Show All"
+			],
+			[
+				"refress",
+				"Project: Refresh Folders"
+			],
+			[
+				"cusomi",
+				"UI: Customize Theme"
+			],
+			[
+				"cu",
+				"UI: Customize Theme"
+			],
+			[
+				"customize ",
+				"UI: Customize Theme"
+			],
+			[
+				"custom",
+				"UI: Customize Theme"
+			],
+			[
+				"customize",
+				"UI: Customize Theme"
+			],
+			[
+				"theme ",
+				"UI: Customize Theme"
+			],
+			[
+				"set styntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"color",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"color sh",
+				"UI: Select Color Scheme"
+			],
+			[
+				"colo",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"set syntax sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"set syntsx sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"set syntax sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"SET SYNTAX SQ",
+				"Set Syntax: SQL"
+			],
+			[
+				"set syntax",
+				"Set Syntax: HTML"
+			],
+			[
+				"set sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"set ",
+				"Set Syntax: HTML"
+			],
+			[
+				"html ",
+				"HTMLBeautify"
+			],
+			[
+				"select them",
+				"UI: Select Color Scheme"
+			],
+			[
+				"html be",
+				"HTMLBeautify"
+			],
+			[
+				"set syntax py",
+				"Set Syntax: Python"
+			],
+			[
+				"sey syntax p",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"set synta",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set sy",
+				"Set Syntax: HTML"
+			],
+			[
+				"refesh",
+				"Project: Refresh Folders"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax ",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 328.0,
+		"history":
+		[
+			"python3",
+			"import sublime; sublime.run_command(\"package_control_list_packages\")",
+			"print(\"Hello\")",
+			"pwd",
+			"ls -al",
+			"ls",
+			"clear",
+			"cycle",
+			" knightc example.knight -s",
+			"clear",
+			"os.system(\"cls\")",
+			"os.system(\"clear\")",
+			"c",
+			"clear",
+			"print(\"Hello World\")",
+			"print('\\x1bc')",
+			"clear",
+			"xl",
+			"ls",
+			"clear",
+			"clean"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/school/INFIRFS/keyboardshop/keyboardshop-backend/keyboardshop-backend.sublime-project",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/include/core/window/Window.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/src/core/window/Window.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/game/src/Main.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/CMakeLists.txt",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/include/Configuration.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/include/Templar.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/src/Templar.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/libs/glad/CMakeLists.txt",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/window/Window.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/utils/Logger.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/SublimeText/preferences-key-bindings.json",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/SublimeText/terminus/preferences-terminus-command-palette.json",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/SublimeText/terminus/preferences-terminus-key-bindings.json",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/SublimeText/terminus/preferences-terminus-settings.json",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/CopyRelativePath.py",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/SublimeText/preferences-sublime-text.json",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/graphics/Renderer.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/math/Matrix4x4.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/math/Vector3.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/Config.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/window/Window.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/Camera.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/debug/Debug.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/Camera.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/shaders/Shader.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/shaders/Shader.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/ecs/Entity.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/ecs/Component.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/ecs/System.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/resources/AssetManager.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/resources/Texture.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/resources/Model.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/input/Input.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/Shader.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/rendering/Shader.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/math/Matrix4x4.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/dependencies/GLEW/eglew.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/game/shaders/vertex.glsl",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/game/shaders/fragment.glsl",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/dependencies/glm/matrix.hpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/README.md",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/Engine.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/.gitignore",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/src/main.cpp",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/tasks.txt",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/TemplarEngine/engine/core/debug/Matrix4x4.h",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Scribe/.gitignore",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Handlers/ProductMoreTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Handlers/ProductTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Handlers/RootTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/storage/logs/crawl-poiesz.log",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/superscanner.sublime-project",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Local/Session.sublime_session",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Local/Auto Save Session.sublime_session",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Local/License.sublime_license",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/staging-compose.yml",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Poiesz.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/ExtracterChains/ProductMoreExtracterChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/ExtracterChains/SaleStringExtracterChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/tests/Unit/Crawler/Retailer/Poiesz/Handlers/ProductMoreTypeHandlerTest.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/TransformerChains/ProductMoreTransformerChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Config/PoieszConfig.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Handlers/CategoryTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/storage/logs/crawl-aldi.log",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Transformer/ArrayJoin.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/tests/Unit/Crawler/Retailer/Poiesz/Handlers/ProductTypeHandlerTest.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/.env.example",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/.env",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Rules/EanValidator.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Loader/Models/Supplier.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Models/Supplier.php",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/extracterchain.sublime-snippet",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/typehandler.sublime-snippet",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/transformerchain.sublime-snippet",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Handlers/SearchTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/Config/PoieszPageTypes.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Loader/Models/Product.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/tests/Unit/Crawler/Retailer/Poiesz/Handlers/RootTypeHandlerTest.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/tests/Unit/Crawler/Retailer/Poiesz/Handlers/CategoryTypeHandlerTest.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Product.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Crumb.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Crawler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Loader/Models/Concerns/HasStoredCheck.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Loader/Models/Category.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/development/TestGenerator/Unit/TypeHandlerTestGenerator.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/tests/Unit/Crawler/Retailer/Poiesz/Config/PoieszConfigTest.php",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/RefreshProject.py",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/RefreshFolder.py",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/SpacesToTabs.py",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/storage/logs/crawl-test-poiesz.log",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/ExtracterChains/CategoryExtracterChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/ActionBase/Handlers/CategoryTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/ExtracterChains/SearchExtracterChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/ExtracterChains/SearchProductExtracterChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Spar/Config/SparConfig.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Queue/ItemData.php",
+		"/C/Users/martv/AppData/Roaming/Sublime Text/Packages/User/run_php_cs_fixer_on_save.py",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/Poiesz/ExtracterChains/RootExtracterChain.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/AldiBE.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/AldiNL.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/AldiDE.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/.development-environment/Dockerfile",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/.ssh/id_rsa.pub",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/.ssh/id_rsa",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/Dockerfile",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/tests/Feature/Crawler/AldiNLTest.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/ActionAT/Config/ActionATConfig.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/ActionBase/Handlers/ProductTypeHandler.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/storage/logs/crawl-crisp.log",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/LeClercFRNew.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/storage/logs/crawl-leclerc-frankrijk.log",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Crawler/Retailer/LeClercFRNew/Config/LeClercFRNewConfig.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/superscanner/app/Logger/Logger.php",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/js/computer/main.js",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/js/computer/FileSystem.js",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/js/computer/Terminal.js",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/index.html",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/scss/computer.scss",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/scss/windows95.scss",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/scss/_variables.scss",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/scss/_fonts.scss",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/css/style.css",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/views/test.html",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/scss/main.scss",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/views/windows95.html",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/compile-scss.js",
+		"/?wsl.localhost/Ubuntu-22.04/home/mart/projects/Website/pages/test.html"
+	],
+	"find":
+	{
+		"height": 29.6
+	},
+	"find_in_files":
+	{
+		"height": 203.6,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.6
+	},
+	"input":
+	{
+		"height": 211.2
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 171.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.diff_views":
+	{
+		"height": 621.0
+	},
+	"output.find_results":
+	{
+		"height": 209.6
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 33.2
+	},
+	"pinned_build_system": "",
+	"project": "keyboardshop-backend.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"window.h",
+				"engine\\include\\core\\window\\Window.h"
+			],
+			[
+				"Main.cpp",
+				"game\\src\\Main.cpp"
+			],
+			[
+				"include win dow.",
+				"engine\\include\\core\\window\\Window.h"
+			],
+			[
+				"Window.h",
+				"engine\\core\\window\\Window.h"
+			],
+			[
+				"Main.cp",
+				"game\\src\\Main.cpp"
+			],
+			[
+				"main",
+				"game\\src\\Main.cpp"
+			],
+			[
+				"Vector3",
+				"engine\\core\\math\\Vector3.h"
+			],
+			[
+				"WIndow.h",
+				"engine\\core\\window\\Window.h"
+			],
+			[
+				"Camera",
+				"engine\\rendering\\Camera.cpp"
+			],
+			[
+				"Matrix",
+				"engine\\core\\math\\Matrix4x4.cpp"
+			],
+			[
+				"Matrix4x4",
+				"engine\\core\\math\\Matrix4x4.cpp"
+			],
+			[
+				"matrix4x4.cpp",
+				"engine\\core\\math\\Matrix4x4.cpp"
+			],
+			[
+				"main.cpp",
+				"game\\src\\Main.cpp"
+			],
+			[
+				"shader.cpp",
+				"engine\\rendering\\Shader.cpp"
+			],
+			[
+				"camera",
+				"engine\\rendering\\Camera.cpp"
+			],
+			[
+				"fragme",
+				"game\\shaders\\fragment.glsl"
+			],
+			[
+				"vertex",
+				"game\\shaders\\vertex.glsl"
+			],
+			[
+				"matr",
+				"engine\\core\\math\\Matrix4x4.cpp"
+			],
+			[
+				"vertex.glsl",
+				"game\\shaders\\vertex.glsl"
+			],
+			[
+				"vector3.h",
+				"engine\\core\\math\\Vector3.h"
+			],
+			[
+				"matrix",
+				"dependencies\\glm\\matrix.hpp"
+			],
+			[
+				"Shader.cpp",
+				"engine\\rendering\\Shader.cpp"
+			],
+			[
+				"Shader",
+				"engine\\rendering\\Shader.h"
+			],
+			[
+				"game/main",
+				"game\\src\\Main.cpp"
+			],
+			[
+				"Shader.h",
+				"engine\\rendering\\Shader.h"
+			],
+			[
+				"crawl-poies",
+				"storage\\logs\\crawl-poiesz.log"
+			],
+			[
+				"supersc",
+				"superscanner.sublime-project"
+			],
+			[
+				"superscanner",
+				"superscanner.sublime-project"
+			],
+			[
+				"Poiesz RootTyp",
+				"app\\Crawler\\Retailer\\Poiesz\\Handlers\\RootTypeHandler.php"
+			],
+			[
+				"crawl-aldi.log",
+				"storage\\logs\\crawl-aldi.log"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"env",
+				"app\\Rules\\EanValidator.php"
+			],
+			[
+				"model loader suppl",
+				"app\\Crawler\\Loader\\Models\\Supplier.php"
+			],
+			[
+				"Supplier",
+				"app\\Models\\Supplier.php"
+			],
+			[
+				"loader model product",
+				"app\\Crawler\\Loader\\Models\\Product.php"
+			],
+			[
+				"Product.php",
+				"app\\Product.php"
+			],
+			[
+				"testgener",
+				"development\\TestGenerator\\Unit\\TypeHandlerTestGenerator.php"
+			],
+			[
+				"loader model categor",
+				"app\\Crawler\\Loader\\Models\\Category.php"
+			],
+			[
+				"Crumb",
+				"app\\Crawler\\Crumb.php"
+			],
+			[
+				"test poiesz  root",
+				"tests\\Unit\\Crawler\\Retailer\\Poiesz\\Handlers\\RootTypeHandlerTest.php"
+			],
+			[
+				"test poiesz ",
+				"storage\\logs\\crawl-test-poiesz.log"
+			],
+			[
+				"crawl-poie",
+				"storage\\logs\\crawl-poiesz.log"
+			],
+			[
+				"poiesz",
+				"app\\Crawler\\Poiesz.php"
+			],
+			[
+				"poies",
+				"app\\Crawler\\Poiesz.php"
+			],
+			[
+				"sparconf",
+				"app\\Crawler\\Retailer\\Spar\\Config\\SparConfig.php"
+			],
+			[
+				"crawl-poiesz.log ",
+				"storage\\logs\\crawl-poiesz.log"
+			],
+			[
+				"itemdata",
+				"app\\Crawler\\Queue\\ItemData.php"
+			],
+			[
+				"poieszConfi",
+				"app\\Crawler\\Retailer\\Poiesz\\Config\\PoieszConfig.php"
+			],
+			[
+				"poi",
+				"app\\Crawler\\Poiesz.php"
+			],
+			[
+				"aldi",
+				"app\\Crawler\\AldiDE.php"
+			],
+			[
+				"aldin",
+				"app\\Crawler\\AldiNL.php"
+			],
+			[
+				"dockerfil",
+				"Dockerfile"
+			],
+			[
+				"dockerfile",
+				"Dockerfile"
+			],
+			[
+				"aldinlTest",
+				"tests\\Feature\\Crawler\\AldiNLTest.php"
+			],
+			[
+				"retailer action",
+				"app\\Crawler\\Retailer\\ActionAT\\Config\\ActionATConfig.php"
+			],
+			[
+				"crawl-crisp.log",
+				"storage\\logs\\crawl-crisp.log"
+			],
+			[
+				"crawl-lec",
+				"storage\\logs\\crawl-leclerc-frankrijk.log"
+			],
+			[
+				"leclerc",
+				"app\\Crawler\\LeClercFRNew.php"
+			],
+			[
+				"Logger",
+				"app\\Logger\\Logger.php"
+			],
+			[
+				"leclercfr",
+				"app\\Crawler\\Retailer\\LeClercFRNew\\Config\\LeClercFRNewConfig.php"
+			],
+			[
+				"lecler",
+				"app\\Crawler\\LeClercFRNew.php"
+			],
+			[
+				"crawl-leclerc-frankrijk.log ",
+				"storage\\logs\\crawl-leclerc-frankrijk.log"
+			],
+			[
+				"window",
+				"scss\\windows95.scss"
+			],
+			[
+				"makroConfi",
+				"app\\Crawler\\Retailer\\Makro\\Config\\MakroConfig.php"
+			],
+			[
+				"rootextrac",
+				"app\\Crawler\\Retailer\\KnusprDE\\ExtracterChains\\RootExtracterChain.php"
+			],
+			[
+				"logger ",
+				"app\\Logger\\Logger.php"
+			],
+			[
+				"console crawl",
+				"app\\Console\\Commands\\Crawl.php"
+			],
+			[
+				"windowman",
+				"assets\\js\\managers\\WindowManager.js"
+			],
+			[
+				"task",
+				"assets\\js\\managers\\TaskbarManager.js"
+			],
+			[
+				"desktopm",
+				"assets\\js\\managers\\DesktopManager.js"
+			],
+			[
+				"main.js",
+				"assets\\js\\main.js"
+			],
+			[
+				"home.",
+				"home.html"
+			],
+			[
+				"week5",
+				"week5.html"
+			],
+			[
+				"week4.html",
+				"week4.html"
+			],
+			[
+				"week3",
+				"week3.html"
+			],
+			[
+				"week2",
+				"week2.html"
+			],
+			[
+				"week3.",
+				"week3.html"
+			],
+			[
+				"week1",
+				"week1.html"
+			],
+			[
+				"style.c",
+				"css\\style.css"
+			],
+			[
+				"style.",
+				"css\\style.css"
+			],
+			[
+				"root.",
+				"css\\root.css"
+			],
+			[
+				"crawl-sligro.log",
+				"storage\\logs\\crawl-sligro.log"
+			],
+			[
+				"billaat roo",
+				"app\\Crawler\\Retailer\\BillaAt\\TypedResults\\RootResult.php"
+			],
+			[
+				"billaatt",
+				"tests\\Feature\\Crawler\\BillaAtTest.php"
+			],
+			[
+				"test.html",
+				"test.html"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"Extracter\\Prefilter\\Nux",
+				"app\\Crawler\\Extracter\\Prefilter\\Nuxt.php"
+			],
+			[
+				"Extracter\\Prefilter\\Nuxt",
+				"app\\Crawler\\Extracter\\Prefilter\\NuxtDecode.php"
+			],
+			[
+				"Extracter\\Prefilter\\NuxtDecode",
+				"app\\Crawler\\Extracter\\Prefilter\\NuxtDecode.php"
+			],
+			[
+				"crawl-billa-",
+				"storage\\logs\\crawl-billa-oostenrijk.log.1"
+			],
+			[
+				"billaat",
+				"app\\Crawler\\BillaAt.php"
+			],
+			[
+				"xenos",
+				"tests\\Unit\\Crawler\\XenosTest.php"
+			],
+			[
+				"billa",
+				"app\\Crawler\\BillaAt.php"
+			],
+			[
+				"crawl-billa-oostenrijk.log.1",
+				"storage\\logs\\crawl-billa-oostenrijk.log.1"
+			],
+			[
+				"xenos.php",
+				"app\\Crawler\\Xenos.php"
+			],
+			[
+				"xenos t",
+				"tests\\Unit\\Crawler\\XenosTest.php"
+			],
+			[
+				"xeno",
+				"app\\Crawler\\Xenos.php"
+			],
+			[
+				"crawl-xenos.log.1",
+				"storage\\logs\\crawl-xenos.log.1"
+			],
+			[
+				"pluscon",
+				"app\\Crawler\\Retailer\\Plus\\Config\\PlusConfig.php"
+			],
+			[
+				"loader product",
+				"app\\Crawler\\Loader\\Models\\Product.php"
+			],
+			[
+				"ah.php",
+				"app\\Crawler\\AH.php"
+			],
+			[
+				"crawl-plus.log",
+				"storage\\logs\\crawl-plus.log"
+			],
+			[
+				"plusconfig",
+				"app\\Crawler\\Retailer\\Plus\\Config\\PlusConfig.php"
+			],
+			[
+				"plus.php",
+				"app\\Console\\Commands\\Insights\\Exports\\Plus.php"
+			],
+			[
+				"mitrank",
+				"app\\Maintenance\\Cleaner\\CrawlProductRankingCleaner.php"
+			],
+			[
+				"mitranl",
+				"app\\Crawler\\MitraNL.php"
+			],
+			[
+				"mitracon",
+				"app\\Crawler\\Retailer\\MitraNL\\Config\\MitraNLConfig.php"
+			],
+			[
+				"ProductTransformerChain",
+				"app\\Crawler\\Retailer\\MitraNL\\TransformerChains\\ProductTransformerChain.php"
+			],
+			[
+				"Extracterchains\\",
+				"app\\Crawler\\Retailer\\Odin\\ExtracterChains\\CategoryPaginationExtracterChain.php"
+			],
+			[
+				"TypedExtracterChain",
+				"app\\Crawler\\Extracter\\TypedExtracterChain.php"
+			],
+			[
+				"crawler",
+				"app\\Crawler\\Crawler.php"
+			],
+			[
+				"crawl-mercadona-spanje.log.1 ",
+				"storage\\logs\\crawl-mercadona-spanje.log.1"
+			],
+			[
+				"mercad",
+				"app\\Crawler\\MercadonaEs.php"
+			],
+			[
+				"makroco",
+				"app\\Crawler\\Retailer\\Makro\\Config\\MakroConfig.php"
+			],
+			[
+				"crawl-makro.log ",
+				"storage\\logs\\crawl-makro.log"
+			],
+			[
+				"mitranlcon",
+				"app\\Crawler\\Retailer\\MitraNL\\Config\\MitraNLConfig.php"
+			],
+			[
+				"crawl-mitra",
+				"storage\\logs\\crawl-mitra-nederland.log"
+			],
+			[
+				"mitran",
+				"app\\Crawler\\MitraNL.php"
+			],
+			[
+				"mitr",
+				"app\\Crawler\\MitraNL.php"
+			],
+			[
+				"crawl-mitra-",
+				"storage\\logs\\crawl-mitra-nederland.log"
+			],
+			[
+				"DutchOpeningHoursDefinition",
+				"app\\Crawler\\Language\\Dutch\\DutchOpeningHoursDefinition.php"
+			],
+			[
+				"crawl-mitra-n",
+				"storage\\logs\\crawl-mitra-nederland.log"
+			],
+			[
+				"mitraNL",
+				"app\\Crawler\\MitraNL.php"
+			],
+			[
+				"type-handler-",
+				"resources\\views\\development\\test-generator\\unit\\type-handler-test-function.blade.php"
+			],
+			[
+				"test generat",
+				"app\\Console\\Commands\\Crawler\\GenerateTypeHandlerTest.php"
+			],
+			[
+				"populators product",
+				"app\\Crawler\\Loader\\Models\\Populators\\Product.php"
+			],
+			[
+				"Product loader model",
+				"app\\Crawler\\Loader\\Models\\Product.php"
+			],
+			[
+				"NormalPercentageSale",
+				"app\\Crawler\\Parser\\SaleDataParser\\Extracter\\Sales\\NormalPercentageSale.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 499.8,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\martv\\AppData\\Roaming\\Sublime Text\\Packages\\User\\Projects\\keyboardshop-backend.sublime-project"
+			],
+			[
+				"key",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\school\\INFIRFS\\keyboardshop\\keyboardshop-backend\\keyboardshop-backend.sublime-workspace"
+			],
+			[
+				"knight",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\Knight\\knight.sublime-project"
+			],
+			[
+				"su",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\superscanner\\superscanner.sublime-project"
+			],
+			[
+				"super",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\superscanner\\superscanner.sublime-project"
+			],
+			[
+				"web",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\Website\\website.sublime-project"
+			],
+			[
+				"we",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\Website\\website.sublime-workspace"
+			],
+			[
+				"sc",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\Scribe\\Scribe.sublime-project"
+			],
+			[
+				"scribe",
+				"\\\\wsl.localhost\\Ubuntu-22.04\\home\\mart\\projects\\Scribe\\Scribe.sublime-project"
+			]
+		],
+		"width": 379.6
+	},
+	"select_symbol":
+	{
+		"height": 365.0,
+		"last_filter": "refr",
+		"selected_items":
+		[
+			[
+				"refr",
+				"refresh"
+			]
+		],
+		"width": 580.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 350.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

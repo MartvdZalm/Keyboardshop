@@ -1,0 +1,90 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.admin__table {
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 25px;
+  max-width: calc(100% - 50px); 
+  @include card-box-shadow;
+  height: 500px;
+  background-color: white;
+  
+  h2 {
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  section {
+    height: 440px;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    width: 100%;
+  
+    thead {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background-color: $primary-color;
+      color: white;
+    }
+
+    th, td {
+      padding: 8px 15px;
+      text-align: left;
+      min-width: 100px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid rgb(202, 201, 201);
+    }
+
+    .buttons {
+      display: flex;
+
+      button {
+        margin: 2px;
+      }
+
+      button.edit-button {
+        @include button-style(rgb(73, 201, 47));
+      }
+  
+      button.remove-button {
+        @include button-style(red);
+      }
+    }
+  }
+
+  @include tablet {
+    table {
+      th:nth-child(1), 
+      td:nth-child(1) {
+        display: none;
+      }
+    }
+  }
+
+  @include mobile {
+    table {
+      th:nth-child(1), 
+      td:nth-child(1),
+      th:nth-child(4),
+      td:nth-child(4),
+      th:nth-child(5),
+      td:nth-child(5) {
+        display: none;
+      }
+
+      .buttons {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

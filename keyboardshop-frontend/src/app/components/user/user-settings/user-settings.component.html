@@ -1,0 +1,104 @@
+<app-toast />
+
+<h2>{{ "user.settings.profile" | translate }}</h2>
+
+<form [formGroup]="userForm" (submit)="onSubmit()" class="form">
+  <span class="form__row">
+    <app-form-input
+      [form]="userForm"
+      controlName="firstName"
+      [label]="'auth.firstName' | translate"
+      [validationMessages]="{
+        required: 'validation.firstName.required' | translate,
+        minlength: 'validation.firstName.minLength' | translate,
+        maxlength: 'validation.firstName.maxLength' | translate
+      }"
+    />
+
+    <app-form-input
+      [form]="userForm"
+      controlName="lastName"
+      [label]="'auth.lastName' | translate"
+      [validationMessages]="{
+        required: 'validation.lastName.required' | translate,
+        minlength: 'validation.lastName.minLength' | translate,
+        maxlength: 'validation.lastName.maxLength' | translate
+      }"
+    />
+  </span>
+
+  <app-form-input
+    [form]="userForm"
+    controlName="email"
+    [label]="'auth.email' | translate"
+    [validationMessages]="{
+      required: 'validation.email.required' | translate,
+      email: 'validation.email.invalid' | translate
+    }"
+  />
+
+  <app-form-input
+    [form]="userForm"
+    controlName="streetName"
+    [label]="'auth.streetName' | translate"
+    [validationMessages]="{
+      required: 'validation.streetName.required' | translate,
+    }"
+  />
+
+  <span class="form__row">
+    <app-form-input
+      [form]="userForm"
+      controlName="houseNumber"
+      [label]="'auth.houseNumber' | translate"
+      [validationMessages]="{
+        required: 'validation.houseNumber.required' | translate,
+      }"
+    />
+
+    <app-form-input
+      [form]="userForm"
+      controlName="postalCode"
+      [label]="'auth.postalCode' | translate"
+      [validationMessages]="{
+        required: 'validation.postalCode.required' | translate,
+      }"
+    />
+  </span>
+
+  <app-form-input
+    [form]="userForm"
+    controlName="city"
+    [label]="'auth.city' | translate"
+    [validationMessages]="{
+      required: 'validation.city.required' | translate,
+    }"
+  />
+
+  <app-form-input
+    [form]="userForm"
+    controlName="phoneNumber"
+    [label]="'auth.phoneNumber' | translate"
+    [validationMessages]="{}"
+  />
+
+  <app-form-input
+    [form]="userForm"
+    type="password"
+    controlName="password"
+    [label]="'auth.password' | translate"
+    [validationMessages]="{
+      required: 'validation.password.required' | translate,
+      minlength: 'validation.password.minlength' | translate,
+      maxlength: 'validation.password.maxlength' | translate,
+      pattern: 'validation.password.pattern' | translate
+    }"
+  />
+
+  <span class="form__row">
+    <button class="form__cancel">
+      {{ "user.settings.cancel" | translate }}
+    </button>
+    <button class="form__submit">{{ "user.settings.save" | translate }}</button>
+  </span>
+</form>

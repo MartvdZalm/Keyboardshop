@@ -1,0 +1,16 @@
+
+@if (attributes().length !== 0) {
+  <section class="product__specifications">
+      <h3>{{ 'product.specifications' | translate }}</h3>
+      <table>
+        <tbody>
+          @for (attribute of attributes(); track attribute.id) {
+            <tr>
+              <td>{{ attribute.name | titlecase  }}</td>
+              <td>{{ attribute.value }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+  </section>
+}

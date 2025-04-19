@@ -1,0 +1,25 @@
+<section class="overview">
+  <h2>{{ "cart.overview" | translate }}</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td>{{ "cart.products" | translate }} ({{ totalProducts() }})</td>
+        <td>{{ totalPrice() | currency : "EUR" }}</td>
+      </tr>
+      <tr>
+        <td>{{ "cart.shippingCost" | translate }}</td>
+        <td>{{ 0 | currency : "EUR" }}</td>
+      </tr>
+      <tr>
+        <td>{{ "cart.total" | translate }}</td>
+        <td>{{ totalPrice() | currency : "EUR" }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button [routerLink]="['/', 'order']">
+    {{ "cart.checkout" | translate }}
+  </button>
+  <button (click)="onEmptyCart()" class="empty-cart">
+    {{ "cart.emptyCart" | translate }}
+  </button>
+</section>

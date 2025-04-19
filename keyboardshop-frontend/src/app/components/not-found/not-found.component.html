@@ -1,0 +1,22 @@
+<app-header />
+<app-spacer />
+
+<main>
+  <article>
+    <h1>{{ "notFound.404" | translate }}</h1>
+    <p>{{ "notFound.404Message" | translate }}</p>
+
+    <section>
+      <h2>{{ "notFound.tryThese" | translate }}</h2>
+      <ul>
+        <li>{{ "notFound.checkUrl" | translate }}</li>
+        <li>{{ "notFound.search" | translate }}</li>
+        <li>{{ "notFound.home" | translate }}</li>
+      </ul>
+    </section>
+
+    <button routerLink="/">{{ "notFound.goHome" | translate }}</button>
+  </article>
+</main>
+
+<app-footer />

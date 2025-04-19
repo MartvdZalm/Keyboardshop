@@ -1,0 +1,32 @@
+@use "../../../../styles/mixins" as *;
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+
+  img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+    border-radius: 5px;
+
+    &:hover {
+      transform: scale(1.05);
+      @include card-box-shadow;
+    }
+
+    &:focus {
+      @include card-box-shadow;
+      transform: scale(1.05);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

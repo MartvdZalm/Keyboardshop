@@ -1,0 +1,14 @@
+<article class="product__card">
+  @if (product()) {
+    <img [src]="imageUrl + product()!.images[0].url" [alt]="product()!.name" />
+
+    <section class="product__card-content">
+      <h3>{{ product()!.name }}</h3>
+
+      <span class="product__card-details">
+        <p>{{ "order.orderOverview.quantity" | translate }}: {{ quantity() }}</p>
+        <p class="product__card-price">{{ totalPrice() | currency : "EUR" }}</p>
+      </span>
+    </section>
+  }
+</article>

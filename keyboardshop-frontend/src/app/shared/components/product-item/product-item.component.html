@@ -1,0 +1,28 @@
+<section
+  [routerLink]="['/product', product().slug]"
+  tabindex="0"
+  role="link"
+  (keydown.enter)="navigateToProduct()"
+  (keydown.space)="navigateToProduct()"
+  [attr.aria-label]="'View product details for ' + product().name"
+>
+  <h3>{{ product().name }}</h3>
+  @if (product().images.length > 0) {
+    <img
+      [src]="imageUrl + product().images[0].url"
+      [alt]="product().name"
+      role="img"
+    />
+  }
+
+  <p>{{ product().price | currency : "EUR" }}</p>
+
+  <button
+    (click)="onAddToCart(); $event.stopPropagation()"
+    (keydown.enter)="onAddToCart()"
+    (keydown.space)="onAddToCart()"
+    [attr.aria-label]="'Add ' + product().name + 'to cart'"
+  >
+    {{ "product.addToCart" | translate }}
+  </button>
+</section>

@@ -1,0 +1,20 @@
+@use "../../../styles/mixins" as *;
+@use "../../../styles/variables";
+
+:host {
+  flex: 1;
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: 35px auto; 
+
+    @include mobile {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

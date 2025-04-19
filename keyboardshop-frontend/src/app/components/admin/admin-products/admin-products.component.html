@@ -1,0 +1,35 @@
+<app-toast />
+
+<section>
+  <app-admin-table [title]="'admin.sidebar.products' | translate">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>{{ 'admin.products.name' | translate }}</th>
+        <th>{{ 'admin.products.price' | translate }}</th>
+        <th>{{ 'admin.products.active' | translate }}</th>
+        <th>{{ 'admin.products.quantity' | translate }}</th>
+        <th>{{ 'admin.products.category' | translate }}</th>
+        <th>{{ 'admin.products.actions' | translate }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (product of products(); track product.id) {
+        <tr>
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.price | currency:'EUR' }}</td>
+          <td>{{ product.active }}</td>
+          <td>{{ product.quantity }}</td>
+          <td>{{ getCategoryName(product.categoryId) }}</td>
+          <td class="buttons">
+            <button class="edit-button" (click)="onSelectProduct(product.id)">{{ 'admin.products.edit' | translate }}</button>
+          </td>
+        </tr>  
+      }
+    </tbody>
+  </app-admin-table>
+  
+  <button (click)="onCreateProduct()">{{ 'admin.products.createProduct' | translate }}</button>
+  
+</section>

@@ -1,0 +1,19 @@
+<app-spacer />
+<app-toast />
+
+<h1>{{ 'cart.shoppingCart' | translate }}</h1>
+
+<article class="shopping__cart">
+  <section class="products">
+    @if (products().length !== 0) {
+      @for (product of products(); track product.id) {
+        <app-cart-item [product]="product" />
+      }
+    } @else {
+      <p>{{ 'cart.emptyCartMessage' | translate }}</p>
+    }
+
+  </section>
+  <app-cart-overview />
+</article>
+

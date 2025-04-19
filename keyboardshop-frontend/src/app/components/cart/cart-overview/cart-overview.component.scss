@@ -1,0 +1,39 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+
+.overview {
+  background-color: #f1f3f5;
+  padding: 15px;
+  min-width: 300px;
+  height: fit-content;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    tbody {
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      td:last-child {
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+  }
+
+  button {
+    @include button-style($accent-color);
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .empty-cart {
+    @include button-style($primary-color);
+    padding: 10px;
+  }
+}

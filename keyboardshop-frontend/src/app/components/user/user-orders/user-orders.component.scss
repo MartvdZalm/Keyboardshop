@@ -1,0 +1,62 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+h2 {
+  font-size: 1.8rem;
+  color: $primary-color;
+  margin: 1rem;
+}
+
+article {
+  min-width: 500px;
+
+  @include tablet {
+    min-width: 100%;
+  }
+
+  @include mobile {
+    min-width: 100%;
+  }
+
+  .order {
+    border: 1px solid $tertiary-color;
+    border-radius: 10px;
+    margin: 30px 0;
+    @include card-box-shadow;
+
+    .order__header {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid $tertiary-color;
+  
+      p {
+        color: $primary-color;
+        font-weight: bold;
+      }
+  
+      .order__header-title {
+        font-weight: bold;
+        color: $primary-color;
+        margin-right: 30px;
+      }
+  
+    }
+  
+    .order__products-total {
+      text-align: right;
+      padding: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: $primary-color;
+      border-top: 1px solid $tertiary-color;
+    }
+  
+    .order__products {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+

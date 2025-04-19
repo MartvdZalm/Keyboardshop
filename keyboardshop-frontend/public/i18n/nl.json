@@ -1,0 +1,258 @@
+{
+  "toast": {
+    "product": {
+      "created": "Product is succesvol aangemaakt!",
+      "updated": "Product is succesvol bijgewerkt!",
+      "createError": "Er is een onverwachte fout opgetreden bij het aanmaken van het product!",
+      "updateError": "Fout bij het bijwerken van het product!",
+      "delete": "Product succesvol verwijderd!",
+      "deleteError": "Fout bij het verwijderen van het product!",
+      "activate": "Product succesvol geactiveerd!",
+      "deactivate": "Product succesvol gedeactiveerd!",
+      "invalidFields": "Ongeldige velden: {{ fields }}",
+      "cartAdded": "Product toegevoegd aan winkelwagen!"
+    },
+    "order": {
+      "placed": "Bestelling succesvol geplaatst!"
+    },
+    "user": {
+      "update": "Gebruiker succesvol bijgewerkt!",
+      "credentials": "Controleer uw gegevens!"
+    },
+    "cart": {
+      "limit": "U kunt niet meer dan 10 exemplaren van dit artikel toevoegen."
+    }
+  },
+  "aboutUs": {
+    "title": "Over Ons",
+    "description": "Bij KeyHub zijn we gepassioneerd over mechanische toetsenborden en accessoires die jouw setup compleet maken. Of je nu een doorgewinterde liefhebber bent of net begint, onze zorgvuldig samengestelde selectie is er voor iedereen. Kwaliteit, maatwerk en community — daar staan we voor."
+  },
+  "noResults": {
+    "title": "Geen producten gevonden voor \"{{ searchQuery }}\"",
+    "suggestions": {
+      "title": "Probeer in plaats daarvan deze suggesties:",
+      "checkSpelling": "Controleer je spelling",
+      "useGenericTerms": "Gebruik meer algemene termen",
+      "browseCategories": "Blader door onze categorieën"
+    },
+    "showAllProducts": "Alle producten tonen"
+  },
+  "assortment": {
+    "assortment": "Assortiment"
+  },
+  "header": {
+    "assortment": "Assortiment",
+    "aboutUs": "Over ons",
+    "searchPlaceholder": "Zoeken..."
+  },
+  "category": {
+    "page": "Pagina",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "of": "van"
+  },
+  "order": {
+    "orderForm": {
+      "shippingInformation": "Verzendinformatie",
+      "placeOrder": "Plaats Bestelling"
+    },
+    "orderOverview": {
+      "quantity": "Hoeveelheid"
+    }
+  },
+  "notFound": {
+    "404": "Pagina Niet Gevonden",
+    "404Message": "Sorry, de pagina die je zoekt bestaat niet.",
+    "tryThese": "Probeer in plaats daarvan deze suggesties:",
+    "checkUrl": "Controleer de URL op typfouten",
+    "search": "Gebruik de zoekfunctie om te vinden wat je zoekt",
+    "home": "Ga naar de startpagina",
+    "goHome": "Ga naar de Startpagina"
+  },
+  "footer": {
+    "company": "Bedrijf",
+    "aboutUs": "Over ons",
+    "privacyPolicy": "Privacybeleid",
+    "customerService": "Klantenservice",
+    "termsOfService": "Algemene voorwaarden"
+  },
+  "product": {
+    "inStock": "Op Voorraad",
+    "addToCart": "In winkelwagen",
+    "description": "Beschrijving",
+    "specifications": "Specificaties",
+    "yourCart": "Uw winkelwagen",
+    "viewCart": "Bekijk winkelwagen"
+  },
+  "user": {
+    "orders": {
+      "yourOrders": "Uw Bestellingen",
+      "order": "Bestelling",
+      "quantity": "Hoeveelheid",
+      "noOrders": "U heeft nog geen bestellingen."
+    },
+    "profile": {
+      "profile": "Profiel",
+      "name": "Naam",
+      "email": "E-mailadres",
+      "street": "Straat",
+      "address": "Adres",
+      "phone": "Telefoonnummer"
+    },
+    "settings": {
+      "profile": "Profiel",
+      "cancel": "Annuleren",
+      "save": "Opslaan"
+    },
+    "sidebar": {
+      "profile": "Profiel",
+      "orders": "Bestellingen",
+      "settings": "Instellingen",
+      "adminPanel": "Admin Paneel",
+      "logout": "Uitloggen"
+    }
+  },
+  "cart": {
+    "shoppingCart": "Winkelwagen",
+    "overview": "Overzicht",
+    "products": "Producten",
+    "shippingCost": "Verzendkosten",
+    "total": "Totaal",
+    "checkout": "Afrekenen",
+    "emptyCartMessage": "Winkelwagen is leeg",
+    "emptyCart": "Leeg Winkelwagen"
+  },
+  "auth": {
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "streetName": "Straatnaam",
+    "houseNumber": "Huisnummer",
+    "postalCode": "Postcode",
+    "city": "Stad",
+    "phoneNumber": "Telefoonnummer",
+    "register": {
+      "title": "Registreren",
+      "button": "Registreer",
+      "loginLink": "Inloggen"
+    },
+    "login": {
+      "title": "Inloggen",
+      "button": "Inloggen",
+      "registerLink": "Account aanmaken"
+    }
+  },
+  "admin": {
+    "product": {
+      "name": "Naam",
+      "nameNL": "Naam (Nederlands)",
+      "nameEN": "Naam (Engels)",
+      "descriptionNL": "Beschrijving (Nederlands)",
+      "descriptionEN": "Beschrijving (Engels)",
+      "description": "Beschrijving",
+      "price": "Prijs",
+      "quantity": "Hoeveelheid",
+      "images": "Afbeeldingen",
+      "attributes": "Attributen",
+      "category": "Category",
+      "cancel": "Annuleren",
+      "save": "Opslaan",
+      "deactivate": "Deactiveren",
+      "activate": "Activeren",
+      "delete": "Verwijderen",
+      "addAttribute": "Attribuut toevoegen"
+    },
+    "users": {
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres"
+    },
+    "sidebar": {
+      "title": "Admin Paneel",
+      "dashboard": "Dashboard",
+      "users": "Gebruikers",
+      "products": "Producten",
+      "orders": "Bestellingen",
+      "settings": "Instellingen"
+    },
+    "products": {
+      "name": "Naam",
+      "price": "Prijs",
+      "active": "Actief",
+      "quantity": "Hoeveelheid",
+      "category": "Categorie",
+      "actions": "Acties",
+      "createProduct": "Maak Product",
+      "edit": "Bewerk"
+    },
+    "orders": {
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres"
+    }
+  },
+  "validation": {
+    "firstName": {
+      "required": "Voornaam is verplicht",
+      "minLength": "Voornaam moet minimaal 2 tekens lang zijn",
+      "maxLength": "Voornaam mag niet langer zijn dan 50 tekens"
+    },
+    "lastName": {
+      "required": "Achternaam is verplicht",
+      "minLength": "Achternaam moet minimaal 2 tekens lang zijn",
+      "maxLength": "Achternaam mag niet langer zijn dan 50 tekens"
+    },
+    "email": {
+      "required": "Email is vereist",
+      "invalid": "Voer een gelig email in"
+    },
+    "password": {
+      "required": "Password is vereist",
+      "minlength": "Wachtwoord moet minimaal 8 karakters lang zijn",
+      "maxlength": "Wachtwoord mag niet langer zijn dan 30 karakters",
+      "pattern": "Het wachtwoord moet minimaal één hoofdletter, één kleine letter, één cijfer en één speciaal teken bevatten"
+    },
+    "streetName": {
+      "required": "Straatnaam is vereist"
+    },
+    "houseNumber": {
+      "required": "Huisnummer is vereist"
+    },
+    "postalCode": {
+      "required": "Postcode is vereist"
+    },
+    "city": {
+      "required": "Stad is vereist"
+    },
+    "phoneNumber": {
+      "required": "Telefoonnummer is vereist",
+      "pattern": "Ongeldig telefoonnummer. Gebruik een geldig formaat zoals +123 456 7890 of 0612345678"
+    },
+    "failed": {
+      "login": "Inloggen mislukt. Controleer uw inloggegevens.",
+      "register": "Registratie mislukt. Controleer uw gegevens."
+    },
+    "name": {
+      "required": "Product naam is vereist"
+    },
+    "description": {
+      "required": "Beschrijving is vereist"
+    },
+    "price": {
+      "required": "Prijs is vereist"
+    },
+    "quantity": {
+      "required": "Hoeveelheid is vereist"
+    },
+    "images": {
+      "required": "Afbeelding is vereist"
+    },
+    "attributes": {
+      "required": "Attribuut is vereist"
+    },
+    "category": {
+      "required": "Categorie is vereist"
+    }
+  }
+}

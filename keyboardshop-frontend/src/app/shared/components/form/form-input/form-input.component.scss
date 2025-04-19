@@ -1,0 +1,15 @@
+@use "../../../../../styles/variables" as *;
+@use "../../../../../styles/mixins" as *;
+
+section {
+  display: flex;
+  flex-direction: column;
+  
+  input {
+    @include form-input-style;
+  }
+  
+  .error-message {
+    @include error-message-style;
+  }
+}

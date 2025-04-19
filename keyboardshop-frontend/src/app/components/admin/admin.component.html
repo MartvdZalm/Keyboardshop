@@ -1,0 +1,10 @@
+<app-admin-sidebar [isOpen]="isSidebarOpen" (closeSidebar)="closeSidebar()" />
+
+
+<article>
+  <app-admin-header (toggleSidebar)="toggleSidebar()" />
+  
+  <section class="admin__container__view">
+    <router-outlet />
+  </section>
+</article>

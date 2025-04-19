@@ -1,0 +1,56 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+:host {
+  @include tablet {
+    width: 100%;
+  }
+  @include mobile {
+    width: 100%;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 250px;
+  padding: 20px 0;
+  background-color: $primary-color;
+  @include card-box-shadow;
+  border-radius: 8px;
+  margin: 20px; 
+
+  @include tablet {
+    width: 100%;
+    height: fit-content;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
+  @include mobile {
+    width: 100%;
+    height: fit-content;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  .categories {
+    width: 90%;
+
+    li {
+      margin: 10px 0;
+      display: flex;
+      list-style: none;
+      button {
+        @include button-style($accent-color);
+        width: 100%;
+      }
+    }
+  }
+}

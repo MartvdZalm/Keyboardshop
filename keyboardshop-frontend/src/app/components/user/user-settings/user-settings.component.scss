@@ -1,0 +1,37 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+
+h2 {
+  font-size: 1.8rem;
+  color: $primary-color;
+  margin: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  @include card-box-shadow;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid $tertiary-color;
+
+  &__row {
+    display: flex;
+    gap: 1rem;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  &__submit {
+    @include button-style($primary-color);
+  }
+
+  &__cancel {
+    @include button-style($tertiary-color);
+  }
+}

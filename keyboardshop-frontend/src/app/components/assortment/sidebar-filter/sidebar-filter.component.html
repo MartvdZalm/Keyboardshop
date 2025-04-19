@@ -1,0 +1,12 @@
+<section>
+  <h2>Categories</h2>
+  <ul class="categories">
+    @for (category of categories(); track category.id) {
+    <li>
+      <button [routerLink]="['/category', category.slug]">
+        {{ category.name }}
+      </button>
+    </li>
+    }
+  </ul>
+</section>

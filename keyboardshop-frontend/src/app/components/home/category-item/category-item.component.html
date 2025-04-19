@@ -1,0 +1,17 @@
+<section
+  [routerLink]="['/category', category().slug]"
+  tabindex="0"
+  role="button"
+  (keydown.enter)="navigateToCategory()"
+>
+  <span>
+    <h2>{{ category().name }} ></h2>
+    <p>{{ category().description }}</p>
+  </span>
+
+  <img
+    rel="preload" 
+    [src]="imageUrl + category().image"
+    [alt]="category().name || 'Category image'"
+  />
+</section>

@@ -1,0 +1,19 @@
+<section [formGroup]="form()">
+  <label [for]="controlName()">{{ label() }}</label>
+
+  <div class="images__container">
+    @for (img of form().value.images; track img.id; let i = $index) { 
+    <span class="images__container-preview">
+      @if (img.previewUrl && !img.url) {
+        <img [src]="img.previewUrl" [alt]="img.url" />
+      }
+      @if (img.url) {
+        <img [src]="imageUrl + img.url" [alt]="img.url" />
+      }
+      <button type="button" (click)="removeImage(i)">x</button>
+    </span>
+    }
+  </div>
+  
+  <input type="file" (change)="onFileSelected($event)" multiple />
+</section>

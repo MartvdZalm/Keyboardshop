@@ -1,0 +1,53 @@
+<form [formGroup]="registerForm" (submit)="onSubmit()">
+  <h2>{{ 'auth.register.title' | translate }}</h2>
+  
+  <app-form-input 
+    [form]="registerForm"
+    controlName="firstName"
+    [label]="'auth.firstName' | translate"
+    [validationMessages]="{
+      required: 'validation.firstName.required' | translate,
+      minlength: 'validation.firstName.minLength' | translate,
+      maxlength: 'validation.firstName.maxLength' | translate
+    }"
+    autofocus 
+  />
+
+  <app-form-input
+    [form]="registerForm"
+    controlName="lastName"
+    [label]="'auth.lastName' | translate"
+    [validationMessages]="{
+      required: 'validation.lastName.required' | translate,
+      minlength: 'validation.lastName.minLength' | translate,
+      maxlength: 'validation.lastName.maxLength' | translate
+    }"
+  />
+
+  <app-form-input
+    [form]="registerForm"
+    controlName="email"
+    [label]="'auth.email' | translate"
+    [validationMessages]="{
+      required: 'validation.email.required' | translate,
+      email: 'validation.email.invalid' | translate
+    }"
+  />
+
+  <app-form-input 
+    [form]="registerForm"
+    type="password"
+    controlName="password"
+    [label]="'auth.password' | translate"
+    [validationMessages]="{
+      required: 'validation.password.required' | translate,
+      minlength: 'validation.password.minlength' | translate,
+      maxlength: 'validation.password.maxlength' | translate,
+      pattern: 'validation.password.pattern' | translate
+    }"
+  />
+
+  <button type="submit">{{ 'auth.register.button' | translate }}</button>
+  <p class="error-message">{{ errorMessage | translate }}</p>
+  <a routerLink="/login">{{ 'auth.register.loginLink' | translate }}</a>
+</form>

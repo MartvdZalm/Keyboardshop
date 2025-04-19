@@ -1,0 +1,24 @@
+<h2>{{ "user.profile.profile" | translate }}</h2>
+
+@if (user()) {
+<section>
+  <p>
+    <b>{{ "user.profile.name" | translate }}: </b>{{ user()!.firstName }}
+    {{ user()!.lastName }}
+  </p>
+  <p>
+    <b>{{ "user.profile.email" | translate }}: </b>{{ user()!.email }}
+  </p>
+  <p>
+    <b>{{ "user.profile.street" | translate }}: </b>{{ user()!.streetName }}
+    {{ user()!.houseNumber }}
+  </p>
+  <p>
+    <b>{{ "user.profile.address" | translate }}: </b>{{ user()!.postalCode }}
+    {{ user()!.city }}
+  </p>
+  <p>
+    <b>{{ "user.profile.phone" | translate }}: </b>{{ user()!.phoneNumber }}
+  </p>
+</section>
+}

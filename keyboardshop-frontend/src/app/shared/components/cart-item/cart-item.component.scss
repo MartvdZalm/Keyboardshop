@@ -1,0 +1,75 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+article {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  @include card-box-shadow;
+  cursor: pointer;
+
+  img {
+    width: 100px;
+    border-radius: 8px;
+    margin: 5px;
+  }
+
+  .product__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+
+    h4 {
+      transition: color 0.15s ease;
+      max-height: 3rem;
+      overflow: hidden;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    
+      button {
+        @include button-style($accent-color);
+      }
+    
+      input {
+        width: 50px;
+        text-align: center;
+        padding: 6px 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+    
+        &:focus {
+          outline: none;
+          border-color: $accent-color;
+        }
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+
+  .product__actions {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+    button {
+      @include button-style(red);
+    }    
+  }
+}

@@ -1,0 +1,29 @@
+<app-admin-table [title]="'admin.sidebar.orders' | translate">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>{{ 'admin.orders.email' | translate }}</th>
+      <th>{{ 'admin.orders.firstName' | translate }}</th>
+      <th>{{ 'admin.orders.lastName' | translate }}</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (order of orders(); track order.id) {
+      <tr>
+        <td>{{ order.id }}</td>
+
+        @if (order.guestEmail) {
+          <td>{{ order.guestEmail }}</td>
+          <td>{{ order.guestFirstName }}</td>
+          <td>{{ order.guestLastName }}</td>
+        } @else {
+          <td>{{ order.user.email }}</td>
+          <td>{{ order.user.firstName }}</td>
+          <td>{{ order.user.lastName }}</td>
+        }
+        <td>{{ order.status | titlecase }}</td>
+      </tr>  
+    }
+  </tbody>
+</app-admin-table>

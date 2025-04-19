@@ -1,0 +1,32 @@
+@use "../../../../styles/variables" as *;
+
+.breadcrumb {
+  display: flex;
+  padding: 8px 16px;
+  background-color: $secondary-color;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child)::after {
+      content: '>';
+      margin: 0 0.5rem;
+      color: $accent-color;
+    }
+
+    a {
+      color: $accent-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    span {
+      color: white;
+    }
+  }
+}

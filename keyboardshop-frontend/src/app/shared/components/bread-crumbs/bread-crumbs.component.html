@@ -1,0 +1,16 @@
+<ol class="breadcrumb">
+  <li>
+    <a routerLink="/">Home</a>
+  </li>
+  @for (breadcrumb of breadcrumbs(); track breadcrumb.name; let idx = $index) {
+    <li>
+      @if (idx !== breadcrumbs().length - 1) {
+        <a [routerLink]="breadcrumb.url">
+          {{ breadcrumb.name }}
+        </a>
+      } @else {
+        <span>{{ breadcrumb.name }}</span>
+      }
+    </li>
+  }
+</ol>

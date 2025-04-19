@@ -1,0 +1,28 @@
+<h2>{{ "user.orders.yourOrders" | translate }}</h2>
+
+
+
+<article>
+  @if (orders().length > 0) {
+    @for (order of orders(); track order.id) {
+      <section class="order">
+        <span class="order__header">
+          <p >{{ "user.orders.order" | translate }} #{{ order.id }}</p>
+          <p>Status: {{ order.status | titlecase }}</p>
+          <p >{{ order.createdAt | date : "MMMM d, y" }}</p>
+        </span>
+      
+      
+        <ul class="order__products">
+          @for (product of order.products; track product.id) {
+          <app-user-orders-product [product]="product" />
+          }
+        </ul>
+        <p class="order__products-total">{{ order.total | currency }}</p>
+      
+      </section>
+    } 
+  } @else {
+    <p>{{ "user.orders.noOrders" | translate }}</p>
+  }  
+</article>

@@ -1,0 +1,54 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  margin: 15px;
+  width: 300px;
+  height: 350px;
+  background-color: $primary-color;
+  border: 5px solid $secondary-color;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+
+  &:focus {
+    transform: scale(1.01);
+  }
+
+  @include mobile {
+    width: 250px;
+  }
+
+  &:hover {
+    @include card-box-shadow;
+    transform: scale(1.01);
+  }
+
+  img {
+    width: 70%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    height: 2rem;
+    overflow: hidden;
+  }
+
+  p {
+    color: white;
+    font-size: 18px;
+  }
+
+  button {
+    @include button-style($accent-color);
+  }
+}

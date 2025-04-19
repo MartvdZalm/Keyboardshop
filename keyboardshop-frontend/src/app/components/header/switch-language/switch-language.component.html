@@ -1,0 +1,21 @@
+<button
+  tabindex="0"
+  (click)="switchLanguage(currentLang() === 'en' ? 'nl' : 'en')"
+  (keydown.enter)="switchLanguage(currentLang() === 'en' ? 'nl' : 'en')"
+  (keydown.space)="switchLanguage(currentLang() === 'en' ? 'nl' : 'en'); $event.preventDefault()"
+  [attr.aria-label]="'Switch to ' + (currentLang() === 'en' ? 'Dutch' : 'English')"
+>
+  @if (currentLang() === 'en') {
+    <img
+      src="images/dutch-flag.png"
+      alt="Dutch flag"
+      aria-hidden="true"
+    />
+  } @else {
+    <img
+      src="images/uk-flag.png"
+      alt="UK flag"
+      aria-hidden="true"
+    />
+  }
+</button>

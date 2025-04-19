@@ -1,0 +1,188 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $primary-color;
+  height: 85px;
+  align-items: center;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100%;
+
+    .company__logo {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      cursor: pointer;
+      text-decoration: none;
+
+      @include mobile {
+        display: none;
+      }
+
+      img {
+        width: 50px;
+      }
+
+      h2 {
+        font-family: $brand-title-font-family;
+        color: white;
+        font-weight: normal;
+        margin: 5px;
+      }
+    }
+
+    .nav__group {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      z-index: 999;
+
+      a {
+        display: flex;
+        position: relative;
+        margin: 15px;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+
+      a.nav__group__link {
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -3px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          transform: scaleX(0);
+          transform-origin: bottom right;
+          transition: transform 0.15s ease-out;
+        }
+
+        &:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+    }
+
+    .nav__links {
+      display: flex;
+
+      @media (max-width: 1300px) {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: $primary-color;
+
+        &.active {
+          display: flex;
+        }
+
+        a {
+          margin: 10px 0;
+        }
+      }
+
+      @include tablet {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: $primary-color;
+
+        &.active {
+          display: flex;
+        }
+
+        a {
+          margin: 10px 0;
+        } 
+      }
+
+      @include mobile {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: $primary-color;
+
+        &.active {
+          display: flex;
+        }
+
+        a {
+          margin: 10px 0;
+        } 
+      }
+    }
+
+    .search {
+      width: 300px;
+      padding: 5px 15px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      outline: none;
+      transition: all 0.3s ease;
+
+      @include mobile {
+        margin: 10px;
+      }
+
+      @media (max-width: 500px) {
+        width: 150px;
+      }
+      
+    }
+    
+    .search:focus {
+      border-color: $accent-color;
+    }
+    
+    .search::placeholder {
+      color: #aaa;
+      font-style: italic;
+    }
+    
+    .search:hover {
+      border-color: $accent-color;
+    }
+
+    .hamburger {
+      background-color: transparent;
+      border: none;
+      display: none;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+
+      @media (max-width: 1300px) {
+        display: block;
+      }
+
+      @include tablet {
+        display: block;
+      }
+
+      @include mobile {
+        display: block;
+      }
+    }
+  }
+}

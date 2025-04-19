@@ -1,0 +1,38 @@
+<article>
+  <img [src]="imageUrl + product().images[0].url" [alt]="product().name" />
+
+  <section class="product__content">
+    <h4
+      [routerLink]="['/', 'product', product().slug]"
+      tabindex="0"
+      role="link"
+      (keydown.enter)="navigateToProduct()"
+    >
+      {{ product().name }}
+    </h4>
+    <span>
+      <button (click)="decreaseQuantity()" [disabled]="quantity() <= 1">
+        -
+      </button>
+      <input
+        type="number"
+        name="quantity"
+        id="quantity"
+        min="1"
+        max="10"
+        [(ngModel)]="quantity"
+        (ngModelChange)="onQuantityChange($event)"
+      />
+      <button (click)="increaseQuantity()" [disabled]="quantity() >= 10">
+        +
+      </button>
+    </span>
+    <p>{{ price() | currency : "EUR" }}</p>
+  </section>
+
+  <span class="product__actions">
+    <button (click)="onDelete()">
+      <i class="material-icons">delete</i>
+    </button>
+  </span>
+</article>

@@ -1,0 +1,51 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+section {
+  width: 350px;
+  border-radius: 8px;
+  background-color: $primary-color;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+
+  * {
+    margin: 5px 0;
+  }
+
+  .product__cart-btn {
+    @include button-style($accent-color);
+  }
+
+  .in-stock {
+    color: lightgreen;
+    font-weight: bold;
+  }
+
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+  }
+
+  .quantity__container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    input {
+      width: 60px;
+      padding: 0 5px;
+      font-size: 16px;
+      border: 2px solid lightgray;
+      border-radius: 4px;
+      margin-right: 10px;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: $accent-color;
+        box-shadow: 0 0 5px $accent-color;
+      }
+    }
+  }
+}

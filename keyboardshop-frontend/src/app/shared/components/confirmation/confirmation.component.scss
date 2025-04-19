@@ -1,0 +1,49 @@
+@use "../../../../styles/mixins" as *;
+
+.confirmation__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  .confirmation {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    @include card-box-shadow;
+
+    &__title {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    &__message {
+      margin-bottom: 24px;
+      color: #666;
+    }
+
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+
+      &--cancel {
+        @include button-style(green);
+      }
+
+      &--confirm {
+        @include button-style(red);
+      }
+    }
+  }
+}

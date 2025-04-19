@@ -1,0 +1,29 @@
+<app-toast />
+
+@if (products().length > 0) {
+  <section class="product-grid">
+    @for (product of products(); track product.id) {
+    <app-product-item
+      [product]="product"
+      (addProductToCart)="onAddProductToCart()"
+    />
+    }
+  </section>
+} @else {
+  <section class="no-results">
+    <i class="material-icons">search</i>
+    <h3>{{ "noResults.title" | translate : { searchQuery: searchQuery } }}</h3>
+    <p>{{ "noResults.suggestions.title" | translate }}</p>
+    <ul class="suggestions">
+      <li>{{ "noResults.suggestions.checkSpelling" | translate }}</li>
+      <li>{{ "noResults.suggestions.useGenericTerms" | translate }}</li>
+      <li>{{ "noResults.suggestions.browseCategories" | translate }}</li>
+    </ul>
+    <button
+      routerLink="/assortment"
+      [attr.aria-label]="'noResults.showAllProducts' | translate"
+    >
+      {{ "noResults.showAllProducts" | translate }}
+    </button>
+  </section>
+}

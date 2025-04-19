@@ -1,0 +1,17 @@
+@use "../../../styles/mixins" as *;
+
+section {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  flex: 1;
+  gap: 20px;
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
