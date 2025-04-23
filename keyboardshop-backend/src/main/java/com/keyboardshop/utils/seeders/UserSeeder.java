@@ -18,15 +18,15 @@ public class UserSeeder
     public void seed()
     {
         CustomUser admin = new CustomUser()
-            .setFirstName("Mart")
-            .setLastName("van der Zalm")
-            .setEmail("admin@keyhub.com")
+            .setFirstName("John")
+            .setLastName("Doe")
+            .setEmail("johndoe@gmail.com")
             .setPassword("$2a$10$w6W9VrqtrxB73tUr4Eowru4AflP37rQKRLuqsQUykvtKeJoOCK/U2")
             .setRole("ADMIN")
             .setStreetName("Something Street")
             .setHouseNumber("23")
             .setPostalCode("3464KH")
-            .setCity("Noordwijk")
+            .setCity("A City")
             .setPhoneNumber("06 32161452");
 
         this.customUserRepository.save(admin);    
